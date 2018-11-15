@@ -63,6 +63,35 @@ void AGranadeLauncherTestProjectile::SwitchGun(UPrimitiveComponent* HitComp, AAc
 	}
 }
 
+int AGranadeLauncherTestProjectile::ChangeCurrentGunToNormal()
+{
+	int Normal;
+	Normal = 0;
+	CurrentGun
+	return Normal;
+}
+
+int AGranadeLauncherTestProjectile::ChangeCurrentGunToGrenade()
+{
+	int Grenade;
+	Grenade= 1;
+	return Grenade;
+}
+
+void AGranadeLauncherTestProjectile::ChangeCurrentGun2()
+{
+	if (CurrentGun == 0)
+	{
+		CurrentGun = 1;
+	}
+
+	else if (CurrentGun == 1)
+	{
+		CurrentGun = 0;
+	}
+}
+
+
 /*void AGranadeLauncherTestProjectile::BeginPlay()
 {
 	Super::BeginPlay();

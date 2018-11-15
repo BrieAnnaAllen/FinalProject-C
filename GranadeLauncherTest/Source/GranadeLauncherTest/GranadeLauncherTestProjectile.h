@@ -35,6 +35,12 @@ public:
 		int CurrentGun = 0;
 
 	void SwitchGun(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
+	int static ChangeCurrentGunToNormal();
+	int static ChangeCurrentGunToGrenade();
+
+	void ChangeCurrentGun2();
+
 	/*virtual void BeginPlay() override;
 
 	UFUNCTION()

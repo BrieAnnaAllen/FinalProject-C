@@ -136,6 +136,15 @@ void AGranadeLauncherTestCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAxis("TurnRate", this, &AGranadeLauncherTestCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AGranadeLauncherTestCharacter::LookUpAtRate);
+
+	PlayerInputComponent->BindKey(EKeys::N, this, &AGranadeLauncherTestCharacter::ChangeGun);
+
+
+}
+
+void AGranadeLauncherTestCharacter::ChangeGun()
+{
+	AGranadeLauncherTestProjectile::ChangeCurrentGunToNormal();
 }
 
 void AGranadeLauncherTestCharacter::OnFire()

@@ -48,6 +48,9 @@ class AGranadeLauncherTestCharacter : public ACharacter
 public:
 	AGranadeLauncherTestCharacter();
 
+	void ChangeGun(); // may not need this
+
+
 protected:
 	virtual void BeginPlay();
 
@@ -93,6 +96,7 @@ protected:
 
 	/** Handles stafing movement, left and right */
 	void MoveRight(float Val);
+
 
 	/**
 	 * Called via input to turn at a given rate.
