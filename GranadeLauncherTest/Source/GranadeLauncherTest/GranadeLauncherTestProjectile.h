@@ -19,19 +19,23 @@ class AGranadeLauncherTestProjectile : public AActor
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
 	class UProjectileMovementComponent* ProjectileMovement;
 
-	UPROPERTY(EditAnywhere, Category = "FX")
+	/*UPROPERTY(EditAnywhere, Category = "FX")
 		UParticleSystem* ExplosionParticles;
 
 	UPROPERTY(EditAnywhere, Category = "FX")
 		class USoundCue* ExplosionSound; // putting class is considered a full declaration. prevents errors
 
 	UPROPERTY(EditAnywhere, Category = "Projectile")
-		float Radius = 500.0f; // checking if there is anything within this radius to destroy it
+		float Radius = 500.0f; // checking if there is anything within this radius to destroy it*/
 
 public:
 	AGranadeLauncherTestProjectile();
 
-	virtual void BeginPlay() override;
+	UPROPERTY(EditAnywhere, Category = "Projectile")
+		int CurrentGun = 0;
+
+	void SwitchGun(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	/*virtual void BeginPlay() override;
 
 	UFUNCTION()
 		void OnDetonate(); // makes grenade explode

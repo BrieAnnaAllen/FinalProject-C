@@ -1,0 +1,3 @@
+D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTest.Build.cs
+D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest.Target.cs
+D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTestEditor.Target.cs

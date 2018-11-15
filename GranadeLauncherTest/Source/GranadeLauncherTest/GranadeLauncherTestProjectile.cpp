@@ -44,19 +44,33 @@ void AGranadeLauncherTestProjectile::OnHit(UPrimitiveComponent* HitComp, AActor*
 	// Only add impulse and destroy projectile if we hit a physics
 	if ((OtherActor != NULL) && (OtherActor != this))// && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
 	{
-		OnDetonate();
+		SwitchGun(HitComp, OtherActor, OtherComp, NormalImpulse, Hit);
 	}
 
 }
 
-void AGranadeLauncherTestProjectile::BeginPlay()
+void AGranadeLauncherTestProjectile::SwitchGun(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (CurrentGun == 0)
+	{
+		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
+		Destroy();
+	}
+	else if (CurrentGun == 1)
+	{
+
+		//OnDetonate();
+	}
+}
+
+/*void AGranadeLauncherTestProjectile::BeginPlay()
 {
 	Super::BeginPlay();
 	FTimerHandle handle;
 	GetWorld()->GetTimerManager().SetTimer(handle, this, &AGranadeLauncherTestProjectile::OnDetonate, 5.f, false); // true would make it explode multiple times
 }
-
-void AGranadeLauncherTestProjectile::OnDetonate()
+*/
+/*void AGranadeLauncherTestProjectile::OnDetonate()
 {
 	UParticleSystemComponent* Explosion = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionParticles, GetActorTransform());
 	Explosion->SetRelativeScale3D(FVector(4.f));
@@ -92,4 +106,4 @@ void AGranadeLauncherTestProjectile::OnDetonate()
 		
 	}
 	Destroy();
-}
+}*/
