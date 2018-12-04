@@ -17,6 +17,10 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestCharacter() {}
 	GRANADELAUNCHERTEST_API UClass* Z_Construct_UClass_AGranadeLauncherTestCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_GranadeLauncherTest();
+	GRANADELAUNCHERTEST_API UFunction* Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2();
+	GRANADELAUNCHERTEST_API UScriptStruct* Z_Construct_UScriptStruct_FSubtitleStruct();
+	GRANADELAUNCHERTEST_API UFunction* Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI();
+	GRANADELAUNCHERTEST_API UClass* Z_Construct_UClass_UDialogUI_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -27,8 +31,82 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AGranadeLauncherTestCharacter_ToggleUI = FName(TEXT("ToggleUI"));
+	void AGranadeLauncherTestCharacter::ToggleUI()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AGranadeLauncherTestCharacter_ToggleUI),NULL);
+	}
 	void AGranadeLauncherTestCharacter::StaticRegisterNativesAGranadeLauncherTestCharacter()
 	{
+		UClass* Class = AGranadeLauncherTestCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Talk2", &AGranadeLauncherTestCharacter::execTalk2 },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics
+	{
+		struct GranadeLauncherTestCharacter_eventTalk2_Parms
+		{
+			FString Excerpt;
+			TArray<FSubtitleStruct> Subtitles;
+		};
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Subtitles;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Subtitles_Inner;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Excerpt;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::NewProp_Subtitles = { UE4CodeGen_Private::EPropertyClass::Array, "Subtitles", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000180, 1, nullptr, STRUCT_OFFSET(GranadeLauncherTestCharacter_eventTalk2_Parms, Subtitles), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::NewProp_Subtitles_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "Subtitles", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FSubtitleStruct, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::NewProp_Excerpt = { UE4CodeGen_Private::EPropertyClass::Str, "Excerpt", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(GranadeLauncherTestCharacter_eventTalk2_Parms, Excerpt), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::NewProp_Subtitles,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::NewProp_Subtitles_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::NewProp_Excerpt,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::Function_MetaDataParams[] = {
+		{ "Category", "DialogSystem" },
+		{ "ModuleRelativePath", "GranadeLauncherTestCharacter.h" },
+		{ "ToolTip", "preforms talking system" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGranadeLauncherTestCharacter, "Talk2", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04420401, sizeof(GranadeLauncherTestCharacter_eventTalk2_Parms), Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI_Statics::Function_MetaDataParams[] = {
+		{ "Category", "DialogSystem" },
+		{ "ModuleRelativePath", "GranadeLauncherTestCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGranadeLauncherTestCharacter, "ToggleUI", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08080800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGranadeLauncherTestCharacter_NoRegister()
 	{
@@ -37,9 +115,19 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestCharacter() {}
 	struct Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UI_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UI;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Questions_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Questions;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Questions_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUsingMotionControllers_MetaData[];
 #endif
@@ -109,6 +197,10 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestCharacter() {}
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_GranadeLauncherTest,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGranadeLauncherTestCharacter_Talk2, "Talk2" }, // 3060511573
+		{ &Z_Construct_UFunction_AGranadeLauncherTestCharacter_ToggleUI, "ToggleUI" }, // 3631152169
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -116,6 +208,23 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestCharacter() {}
 		{ "ModuleRelativePath", "GranadeLauncherTestCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_UI_MetaData[] = {
+		{ "Category", "GranadeLauncherTestCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "GranadeLauncherTestCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_UI = { UE4CodeGen_Private::EPropertyClass::Object, "UI", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a000d, 1, nullptr, STRUCT_OFFSET(AGranadeLauncherTestCharacter, UI), Z_Construct_UClass_UDialogUI_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_UI_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_UI_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Questions_MetaData[] = {
+		{ "Category", "GranadeLauncherTestCharacter" },
+		{ "ModuleRelativePath", "GranadeLauncherTestCharacter.h" },
+		{ "ToolTip", "array of dialog excerpts" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Questions = { UE4CodeGen_Private::EPropertyClass::Array, "Questions", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(AGranadeLauncherTestCharacter, Questions), METADATA_PARAMS(Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Questions_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Questions_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Questions_Inner = { UE4CodeGen_Private::EPropertyClass::Str, "Questions", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_bUsingMotionControllers_MetaData[] = {
 		{ "Category", "Gameplay" },
@@ -252,6 +361,9 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AGranadeLauncherTestCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Mesh1P_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_UI,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Questions,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_Questions_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_bUsingMotionControllers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_FireAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::NewProp_FireSound,
@@ -275,7 +387,7 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestCharacter() {}
 		&AGranadeLauncherTestCharacter::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x008000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AGranadeLauncherTestCharacter_Statics::PropPointers),
 		"Game",
 		&StaticCppClassTypeInfo,
@@ -291,7 +403,7 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGranadeLauncherTestCharacter, 963793218);
+	IMPLEMENT_CLASS(AGranadeLauncherTestCharacter, 1455344752);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGranadeLauncherTestCharacter(Z_Construct_UClass_AGranadeLauncherTestCharacter, &AGranadeLauncherTestCharacter::StaticClass, TEXT("/Script/GranadeLauncherTest"), TEXT("AGranadeLauncherTestCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGranadeLauncherTestCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

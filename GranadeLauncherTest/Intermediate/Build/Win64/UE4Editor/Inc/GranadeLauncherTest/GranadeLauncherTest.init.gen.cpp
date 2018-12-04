@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTest_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/GranadeLauncherTest",
 				PKG_CompiledIn | 0x00000000,
-				0xB7735532,
-				0xA8B51A5D,
+				0x8CA635D8,
+				0x8DC56A7C,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

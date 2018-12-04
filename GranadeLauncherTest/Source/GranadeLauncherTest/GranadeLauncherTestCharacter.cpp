@@ -10,6 +10,7 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
+#include "AICharacter.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -19,6 +20,9 @@ DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 AGranadeLauncherTestCharacter::AGranadeLauncherTestCharacter()
 {
+	bIsTalking = false;
+	bIsInTalkRange = false;
+	AssociatedPawn = nullptr;
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 
@@ -108,6 +112,63 @@ void AGranadeLauncherTestCharacter::BeginPlay()
 //////////////////////////////////////////////////////////////////////////
 // Input
 
+FDialogStruct * AGranadeLauncherTestCharacter::RetrieveDialog(UDataTable * TableToSearch, FName RowName)
+{
+	if(!TableToSearch) return nullptr;
+	//if table is valid then retrieve given/currentrow
+	FString ContextString;
+	return TableToSearch->FindRow<FDialogStruct>(RowName, ContextString);
+}
+
+void AGranadeLauncherTestCharacter::GeneratePlayerLines(UDataTable & PlayerLines)
+{
+	//get all the row names of the table
+	TArray<FName> PlayerOptions = PlayerLines.GetRowNames();
+	//retrieve contents of table for each row name
+	for (auto It : PlayerOptions)
+	{
+		FDialogStruct* Dialog = RetrieveDialog(&PlayerLines, It);
+		if (Dialog)
+		{ //retrieve a row and populate the questions array
+			Questions.Add(Dialog->QuestionExcerpt);
+		}
+	}
+
+	AvailableLines = &PlayerLines;
+}
+
+void AGranadeLauncherTestCharacter::Talk2(FString Excerpt, TArray<FSubtitleStruct>& Subtitles)
+{
+	//get all the row names 
+	TArray<FName> PlayerOptions = AvailableLines->GetRowNames();
+
+	for (auto It : PlayerOptions)
+	{
+		FDialogStruct* Dialog = RetrieveDialog(AvailableLines, It);
+		if (Dialog && Dialog->QuestionExcerpt == Excerpt)
+		{
+			Subtitles = Dialog->Subtitles;
+
+			if (UI && AssociatedPawn && Dialog->bShouldAIAnswer)
+			{
+				//Calculate subtitle display time
+				TArray<FSubtitleStruct> SubtitlesToDisplay;
+				float TotalSubsTime = 0.0f;
+				for (int32 i = 0; i < Subtitles.Num(); i++)
+				{
+					TotalSubsTime += Subtitles[i].AssociatedTime;
+				}
+				//Delay of AI response
+				TotalSubsTime += 1.f;
+
+				AssociatedPawn->AnswerToCharacter(It, SubtitlesToDisplay, TotalSubsTime);
+			}
+			else if (!Dialog->bShouldAIAnswer) ToggleTalking(); // turns talking off if no response is needed
+			break;
+		}
+	}
+}
+
 void AGranadeLauncherTestCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// set up gameplay key bindings
@@ -116,6 +177,7 @@ void AGranadeLauncherTestCharacter::SetupPlayerInputComponent(class UInputCompon
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Talk", IE_Pressed, this, &AGranadeLauncherTestCharacter::ToggleTalking);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AGranadeLauncherTestCharacter::OnFire);
@@ -216,6 +278,20 @@ void AGranadeLauncherTestCharacter::EndTouch(const ETouchIndex::Type FingerIndex
 	TouchItem.bIsPressed = false;
 }
 
+void AGranadeLauncherTestCharacter::ToggleTalking()
+{
+	bIsTalking = !bIsTalking;
+	ToggleUI();
+	if (bIsTalking && AssociatedPawn)
+	{
+		//Only if we want the pawn to face us
+		FVector Location = AssociatedPawn->GetActorLocation();
+		FVector TargetLocation = GetActorLocation();
+
+		AssociatedPawn->SetActorRotation((TargetLocation - Location).Rotation());
+	}
+}
+
 //Commenting this section out to be consistent with FPS BP template.
 //This allows the user to turn without using the right virtual joystick
 
@@ -256,7 +332,7 @@ void AGranadeLauncherTestCharacter::EndTouch(const ETouchIndex::Type FingerIndex
 
 void AGranadeLauncherTestCharacter::MoveForward(float Value)
 {
-	if (Value != 0.0f)
+	if ((Controller != NULL) && (Value != 0.0f) && !bIsTalking)
 	{
 		// add movement in that direction
 		AddMovementInput(GetActorForwardVector(), Value);
@@ -265,7 +341,7 @@ void AGranadeLauncherTestCharacter::MoveForward(float Value)
 
 void AGranadeLauncherTestCharacter::MoveRight(float Value)
 {
-	if (Value != 0.0f)
+	if ((Controller != NULL) && (Value != 0.0f) && !bIsTalking)
 	{
 		// add movement in that direction
 		AddMovementInput(GetActorRightVector(), Value);

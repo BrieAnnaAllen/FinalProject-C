@@ -4,9 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "DialogUI.h"
+#include "Engine/DataTable.h"
 #include "GranadeLauncherTestCharacter.generated.h"
 
 class UInputComponent;
+class AAICharacter;
 
 UCLASS(config=Game)
 class AGranadeLauncherTestCharacter : public ACharacter
@@ -119,7 +122,44 @@ protected:
 	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
 	TouchData	TouchItem;
 	
+private:
+	//player is talking with pawn
+	bool bIsTalking;
+	//player is in valid range to talk
+	bool bIsInTalkRange;
+	//initiates / terminates convo
+	void ToggleTalking();
+	//The pawn the player is currently talking to
+	AAICharacter* AssociatedPawn;
+	//Referese to our lines with pawn
+	UDataTable* AvailableLines;
+
+	FDialogStruct* RetrieveDialog(UDataTable* TableToSearch, FName RowName);
+
+public:
+	//Generate Player lines
+	void GeneratePlayerLines(UDataTable& PlayerLines);
+	//array of dialog excerpts 
+	UPROPERTY(BlueprintReadOnly)
+		TArray<FString>Questions;
+	//preforms talking system
+	UFUNCTION(BlueprintCallable, Category = DialogSystem)
+		void Talk2(FString Excerpt, TArray<FSubtitleStruct>& Subtitles);
+		//void Talk2(FString Excerpt, TArray<FSubtitleStruct>& Subtitles);
+
+	//enables / disables talk ability
+	void SetTalkRangeStatus(bool Status) { bIsInTalkRange = Status; }
+	//Sets new pawn
+	void setAssociatedPawn(AAICharacter* Pawn) { AssociatedPawn = Pawn; }
+	//get Ui referense
+	UDialogUI* GetUI() { return UI; }
+
 protected:
+
+	UFUNCTION(BlueprintImplementableEvent, Category = DialogSystem)
+		void ToggleUI();
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		UDialogUI* UI;
 	// APawn interface
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 	// End of APawn interface
@@ -131,6 +171,7 @@ protected:
 	 * @returns true if touch controls were enabled.
 	 */
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
+
 
 public:
 	/** Returns Mesh1P subobject **/

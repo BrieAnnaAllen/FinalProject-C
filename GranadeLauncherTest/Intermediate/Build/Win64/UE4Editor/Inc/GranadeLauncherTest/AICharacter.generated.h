@@ -9,8 +9,8 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct FSubtitleStruct;
-class AActor;
 class UPrimitiveComponent;
+class AActor;
 struct FHitResult;
 #ifdef GRANADELAUNCHERTEST_AICharacter_generated_h
 #error "AICharacter.generated.h already included, missing '#pragma once' in AICharacter.h"
@@ -30,17 +30,19 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execOnBoxEndOverlap) \
 	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
 		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_OtherIndex); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnBoxEndOverlap(Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherIndex); \
+		P_THIS->OnBoxEndOverlap(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherIndex); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execOnBoxOverlap) \
 	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
 		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_OtherIndex); \
@@ -48,7 +50,7 @@ struct FHitResult;
 		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnBoxOverlap(Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_THIS->OnBoxOverlap(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
 		P_NATIVE_END; \
 	}
 
@@ -66,17 +68,19 @@ struct FHitResult;
  \
 	DECLARE_FUNCTION(execOnBoxEndOverlap) \
 	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
 		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_OtherIndex); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnBoxEndOverlap(Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherIndex); \
+		P_THIS->OnBoxEndOverlap(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherIndex); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execOnBoxOverlap) \
 	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
 		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_OtherIndex); \
@@ -84,7 +88,7 @@ struct FHitResult;
 		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnBoxOverlap(Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_THIS->OnBoxOverlap(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
 		P_NATIVE_END; \
 	}
 
@@ -134,7 +138,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAICharacter); \
 #define GranadeLauncherTest_Source_GranadeLauncherTest_AICharacter_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BoxComp() { return STRUCT_OFFSET(AAICharacter, BoxComp); } \
 	FORCEINLINE static uint32 __PPO__PlayerLines() { return STRUCT_OFFSET(AAICharacter, PlayerLines); } \
-	FORCEINLINE static uint32 __PPO__AILInes() { return STRUCT_OFFSET(AAICharacter, AILInes); }
+	FORCEINLINE static uint32 __PPO__AILines() { return STRUCT_OFFSET(AAICharacter, AILines); }
 
 
 #define GranadeLauncherTest_Source_GranadeLauncherTest_AICharacter_h_15_PROLOG

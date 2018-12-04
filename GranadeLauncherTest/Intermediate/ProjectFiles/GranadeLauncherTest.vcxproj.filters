@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\GranadeLauncherTest.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{257A5CB1-29F1-4E03-8855-8F46B64F6A0B}</UniqueIdentifier>
+			<UniqueIdentifier>{82B8EDAD-D7E0-4B69-887A-5E90D29E6D00}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\GranadeLauncherTest.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{02371D5E-48A9-44B9-8642-1EB8508074FF}</UniqueIdentifier>
+			<UniqueIdentifier>{967E2D68-0FB9-4F61-B6B1-BBB70E6A5B98}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\GranadeLauncherTest">
-			<UniqueIdentifier>{7C00B2B2-1C34-4BB7-9936-CE73900B5595}</UniqueIdentifier>
+			<UniqueIdentifier>{1BD0A4A7-AB8B-456A-AF6A-4D79EE66E7A8}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\GranadeLauncherTest\AICharacter.cpp">
 			<Filter>Source\GranadeLauncherTest</Filter>
@@ -39,10 +39,22 @@
 		<ClInclude Include="..\..\Source\GranadeLauncherTest\AICharacter.h">
 			<Filter>Source\GranadeLauncherTest</Filter>
 		</ClInclude >
+		<ClCompile Include="..\..\Source\GranadeLauncherTest\CD.cpp">
+			<Filter>Source\GranadeLauncherTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GranadeLauncherTest\CD.h">
+			<Filter>Source\GranadeLauncherTest</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\GranadeLauncherTest\DialogStruct.cpp">
 			<Filter>Source\GranadeLauncherTest</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\GranadeLauncherTest\DialogStruct.h">
+			<Filter>Source\GranadeLauncherTest</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\GranadeLauncherTest\DialogUI.cpp">
+			<Filter>Source\GranadeLauncherTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GranadeLauncherTest\DialogUI.h">
 			<Filter>Source\GranadeLauncherTest</Filter>
 		</ClInclude >
 		<None Include="..\..\Source\GranadeLauncherTest\GranadeLauncherTest.Build.cs">

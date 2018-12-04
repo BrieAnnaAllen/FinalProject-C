@@ -1,0 +1,1054 @@
+﻿Log file open, 12/04/18 06:43:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GranadeLauncherTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.978037
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.498s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Unreal/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.04-12.43.38:712][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.04-12.43.38:712][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.04-12.43.38:747][  0]LogHAL: Display: Platform has ~ 16 GB [17059753984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.04-12.43.38:747][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.04-12.43.38:747][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.04-12.43.38:775][  0]LogInit: Computer: BRIEANNA-CHEEBS
+[2018.12.04-12.43.38:775][  0]LogInit: User: BrieAnna
+[2018.12.04-12.43.38:775][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.04-12.43.38:775][  0]LogInit: High frequency timer resolution =2.537592 MHz
+[2018.12.04-12.43.38:775][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.04-12.43.38:775][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.04-12.43.38:775][  0]LogMemory: Process Physical Memory: 100.54 MB used, 100.54 MB peak
+[2018.12.04-12.43.38:775][  0]LogMemory: Process Virtual Memory: 91.17 MB used, 91.17 MB peak
+[2018.12.04-12.43.38:775][  0]LogMemory: Physical Memory: 10941.36 MB used,  5328.09 MB free, 16269.45 MB total
+[2018.12.04-12.43.38:775][  0]LogMemory: Virtual Memory: 4645.21 MB used,  5328.09 MB free, 134217728.00 MB total
+[2018.12.04-12.43.39:140][  0]LogInit: Using OS detected language (en-US).
+[2018.12.04-12.43.39:140][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.04-12.43.39:204][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.04-12.43.40:264][  0]LogStreaming: Display: Took  1.124s to InitEngineTextLocalization.
+[2018.12.04-12.43.40:639][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.04-12.43.40:639][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.04-12.43.42:827][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.04-12.43.42:827][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.04-12.43.42:913][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2018.12.04-12.43.42:913][  0]LogD3D11RHI:       3040/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.04-12.43.42:923][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.12.04-12.43.42:923][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.04-12.43.42:927][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.04-12.43.42:927][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.04-12.43.42:927][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.04-12.43.42:965][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.04-12.43.42:965][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.04-12.43.42:965][  0]LogWindows: EnumDisplayDevices:
+[2018.12.04-12.43.42:965][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.12.04-12.43.42:966][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.12.04-12.43.42:966][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.12.04-12.43.42:967][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.04-12.43.42:967][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2018.12.04-12.43.42:967][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.04-12.43.42:967][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.04-12.43.42:967][  0]LogRHI: Texture pool is 2128 MB (70% of 3040 MB)
+[2018.12.04-12.43.43:015][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.04-12.43.43:033][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.04-12.43.43:036][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Intermediate/Shaders/WorkingDirectory/416/).
+[2018.12.04-12.43.43:036][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BrieAnna/AppData/Local/Temp/UnrealShaderWorkingDir/605948F746C77C6E5BF6A99549FE156F/'.
+[2018.12.04-12.43.45:305][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.04-12.43.45:325][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.04-12.43.45:348][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.04-12.43.45:374][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.04-12.43.45:414][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.04-12.43.45:437][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.04-12.43.45:458][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.04-12.43.45:480][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.04-12.43.45:492][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.04-12.43.45:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-12.43.45:634][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.04-12.43.45:786][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.04-12.43.45:786][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.04-12.43.45:857][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.04-12.43.45:857][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.04-12.43.45:875][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.04-12.43.45:891][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.04-12.43.45:909][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.04-12.43.45:941][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.04-12.43.45:955][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.04-12.43.45:956][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.04-12.43.46:293][  0]LogXGEController: Cleaning working directory: C:/Users/BrieAnna/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.04-12.43.46:293][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.04-12.43.46:294][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.04-12.43.46:294][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.04-12.43.48:174][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.04-12.43.48:523][  0]LogDerivedDataCache: Loaded boot cache 0.35s 74MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.04-12.43.48:524][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.04-12.43.48:524][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.04-12.43.48:524][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.04-12.43.48:524][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.04-12.43.48:524][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.04-12.43.48:674][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.04-12.43.48:689][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BrieAnna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.04-12.43.48:689][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.04-12.43.48:689][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.04-12.43.48:716][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.04-12.43.48:718][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.04-12.43.48:808][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.04-12.43.49:757][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2018.12.04-12.43.50:300][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.04-12.43.52:354][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.04-12.43.52:369][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.04-12.43.52:369][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.04-12.43.52:369][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.04-12.43.52:369][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.04-12.43.52:836][  0]LogNetVersion: GranadeLauncherTest 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1746410404)
+[2018.12.04-12.44.01:205][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.206134 seconds
+[2018.12.04-12.44.01:215][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.04-12.44.01:215][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.04-12.44.01:215][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.04-12.44.35:013][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.04-12.44.35:047][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.04-12.44.40:906][  0]SourceControl: Source control is disabled
+[2018.12.04-12.44.40:906][  0]SourceControl: Source control is disabled
+[2018.12.04-12.44.41:002][  0]SourceControl: Source control is disabled
+[2018.12.04-12.44.41:021][  0]SourceControl: Source control is disabled
+[2018.12.04-12.44.42:259][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.04-12.44.42:646][  0]LogOcInput: OculusInput pre-init called
+[2018.12.04-12.44.43:498][  0]LogEngine: Initializing Engine...
+[2018.12.04-12.44.43:573][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.04-12.44.43:594][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.04-12.44.43:594][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.04-12.44.43:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.04-12.44.43:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.04-12.44.44:766][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.04-12.44.45:746][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.04-12.44.46:185][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.04-12.44.46:239][  0]LogInit: FAudioDevice initialized.
+[2018.12.04-12.44.46:264][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.04-12.44.46:427][  0]LogDerivedDataCache: Saved boot cache 0.16s 74MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.04-12.44.46:429][  0]LogInit: Texture streaming: Enabled
+[2018.12.04-12.44.46:867][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.04-12.44.47:107][  0]LogInit: Transaction tracking system initialized
+[2018.12.04-12.44.47:710][  0]BlueprintLog: New page: Editor Load
+[2018.12.04-12.44.50:014][  0]LocalizationService: Localization service is disabled
+[2018.12.04-12.44.52:733][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.04-12.44.52:734][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/' took 0.04s
+[2018.12.04-12.44.52:734][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.04-12.44.52:749][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.04-12.44.52:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.04-12.44.52:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.04-12.44.52:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.12.04-12.44.52:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.04-12.44.55:293][  0]SourceControl: Source control is disabled
+[2018.12.04-12.44.55:340][  0]Cmd: MAP LOAD FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.04-12.44.55:401][  0]LightingResults: New page: Lighting Build
+[2018.12.04-12.44.55:830][  0]MapCheck: New page: Map Check
+[2018.12.04-12.44.55:831][  0]LightingResults: New page: Lighting Build
+[2018.12.04-12.44.57:793][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.04-12.44.59:054][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.04-12.44.59:260][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.04-12.44.59:746][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 484.85ms to complete.
+[2018.12.04-12.44.59:746][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.442
+[2018.12.04-12.45.01:627][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-12.45.01:664][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-12.45.01:675][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-12.45.01:685][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-12.45.01:820][  0]LogCollectionManager: Loaded 0 collections in 0.004487 seconds
+[2018.12.04-12.45.01:998][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Collections/' took 0.01s
+[2018.12.04-12.45.01:998][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/Developers/BrieAnna/Collections/' took 0.01s
+[2018.12.04-12.45.01:998][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/Collections/' took 0.01s
+[2018.12.04-12.45.01:998][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.04-12.45.02:043][  0]LogContentBrowser: Native class hierarchy populated in 0.0436 seconds. Added 2585 classes and 610 folders.
+[2018.12.04-12.45.02:155][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.12.04-12.45.02:924][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.12.04-12.45.03:025][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.12.04-12.45.03:769][  0]LogSlate: Took 0.029744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.04-12.45.03:833][  0]LogSlate: Took 0.037904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.04-12.45.04:000][  0]LogSlate: Took 0.035525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.04-12.45.05:071][  0]LogRenderer: Reallocating scene render targets to support 900x436 Format 10 NumSamples 1 (Frame:1).
+[2018.12.04-12.45.06:167][  0]LogSlate: Took 0.017239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.04-12.45.06:721][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.12.04-12.45.06:721][  0]LogLoad: (Engine Initialization) Total time: 112.33 seconds
+[2018.12.04-12.45.06:721][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.04-12.45.07:496][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.04-12.45.08:418][  3]LogAssetRegistry: Asset discovery search completed in 78.6839 seconds
+[2018.12.04-12.45.08:420][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.04-12.45.08:420][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000376 seconds (updated 0 objects)
+[2018.12.04-12.47.20:118][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.04-12.47.20:414][507]Candidate modules for hot reload:
+[2018.12.04-12.47.20:414][507]  GranadeLauncherTest
+[2018.12.04-12.47.20:415][507]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,8150 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
+[2018.12.04-12.47.21:192][507]Warning: Starting HotReload took  1.0s.
+[2018.12.04-12.49.24:542][870]CompilerResultsLog: New page: Compilation - Dec 4, 2018, 12:49:24 AM
+[2018.12.04-12.49.24:564][870]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.04-12.49.24:564][870]CompilerResultsLog: Creating makefile for hot reloading GranadeLauncherTestEditor (game project files are newer)
+[2018.12.04-12.49.24:564][870]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.04-12.49.24:564][870]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (D:\VS2017\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.04-12.49.24:564][870]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.04-12.49.24:564][870]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 17.5843732 seconds
+[2018.12.04-12.49.24:564][870]CompilerResultsLog: Building 19 actions with 8 processes...
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [1/19] SharedPCH.Engine.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [2/19] GranadeLauncherTest.init.gen.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [3/19] GranadeLauncherTestProjectile.gen.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [4/19] GranadeLauncherTestGameMode.gen.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [5/19] GranadeLauncherTestHUD.gen.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [6/19] DialogStruct.gen.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [7/19] GranadeLauncherTestCharacter.gen.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [8/19] AICharacter.gen.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [9/19] DialogStruct.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [10/19] SubtitleStruct.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [11/19] GranadeLauncherTestGameMode.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [12/19] GranadeLauncherTestHUD.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [13/19] AICharacter.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(9): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   D:\Unreal\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [14/19] SubtitleStruct.gen.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [15/19] GranadeLauncherTestProjectile.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [16/19] GranadeLauncherTestCharacter.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [17/19] GranadeLauncherTest.cpp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [18/19] UE4Editor-GranadeLauncherTest-8150.lib
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-8150.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-8150.exp
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:   [19/19] UE4Editor-GranadeLauncherTest-8150.dll
+[2018.12.04-12.49.24:564][870]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-8150.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-8150.suppressed.exp
+[2018.12.04-12.49.24:565][870]CompilerResultsLog: Total build time: 122.80 seconds (Parallel executor: 78.92 seconds)
+[2018.12.04-12.49.24:565][870]LogMainFrame: MainFrame: Module compiling took 124.284 seconds
+[2018.12.04-12.49.24:837][870]LogClass: Could not find existing class AICharacter in package /Script/GranadeLauncherTest for HotReload, assuming new class
+[2018.12.04-12.49.24:838][870]LogClass: Function OnBoxEndOverlap is new.
+[2018.12.04-12.49.24:838][870]LogClass: Function OnBoxOverlap is new.
+[2018.12.04-12.49.24:838][870]LogClass: Function Talk is new.
+[2018.12.04-12.49.24:842][870]LogClass: Could not find existing type DialogStruct for HotReload. Assuming new
+[2018.12.04-12.49.24:842][870]LogClass: Could not find existing type SubtitleStruct for HotReload. Assuming new
+[2018.12.04-12.49.24:847][870]LogContentBrowser: Native class hierarchy updated for 'GranadeLauncherTest' in 0.0009 seconds. Added 5 classes and 2 folders.
+[2018.12.04-12.49.24:850][870]Display: HotReload successful (2 functions remapped  2 scriptstructs remapped)
+[2018.12.04-12.49.25:361][870]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2587 classes and 612 folders.
+[2018.12.04-12.49.25:443][870]Display: HotReload took 125.3s.
+[2018.12.04-12.50.04:572][351]Candidate modules for hot reload:
+[2018.12.04-12.50.04:572][351]  GranadeLauncherTest
+[2018.12.04-12.50.04:573][351]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,103 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
+[2018.12.04-12.50.05:347][351]Warning: Starting HotReload took  0.8s.
+[2018.12.04-12.50.13:855][499]CompilerResultsLog: New page: Compilation - Dec 4, 2018, 12:50:13 AM
+[2018.12.04-12.50.13:856][499]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.04-12.50.13:856][499]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.04-12.50.13:856][499]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.12.04-12.50.13:856][499]CompilerResultsLog:   [1/3] AICharacter.cpp
+[2018.12.04-12.50.13:856][499]CompilerResultsLog:   D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(9): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.12.04-12.50.13:856][499]CompilerResultsLog:   D:\Unreal\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2018.12.04-12.50.13:856][499]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(16) : error C2664: 'void TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &>::__Internal_AddDynamic<AAICharacter>(UserClass *,void (__cdecl AAICharacter::* )(UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &),FName)': cannot convert argument 2 from 'void (__cdecl AAICharacter::* )(AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &)' to 'void (__cdecl AAICharacter::* )(UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &)'
+[2018.12.04-12.50.13:856][499]CompilerResultsLog:           with
+[2018.12.04-12.50.13:856][499]CompilerResultsLog:           [
+[2018.12.04-12.50.13:856][499]CompilerResultsLog:               UserClass=AAICharacter
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:           ]
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:   D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(16): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(17) : error C2664: 'void TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32>::__Internal_AddDynamic<AAICharacter>(UserClass *,void (__cdecl AAICharacter::* )(UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32),FName)': cannot convert argument 2 from 'void (__cdecl AAICharacter::* )(AActor *,UPrimitiveComponent *,int32)' to 'void (__cdecl AAICharacter::* )(UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32)'
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:           with
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:           [
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:               UserClass=AAICharacter
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:           ]
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:   D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(17): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2018.12.04-12.50.13:857][499]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-103.dll
+[2018.12.04-12.50.13:857][499]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.12.04-12.50.13:857][499]CompilerResultsLog: Total build time: 7.89 seconds (Parallel executor: 0.00 seconds)
+[2018.12.04-12.50.13:858][499]LogMainFrame: MainFrame: Module compiling took 9.291 seconds
+[2018.12.04-12.50.13:858][499]Warning: HotReload failed, recompile failed
+[2018.12.04-12.56.09:767][ 26]Candidate modules for hot reload:
+[2018.12.04-12.56.09:767][ 26]  GranadeLauncherTest
+[2018.12.04-12.56.09:768][ 26]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,4442 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
+[2018.12.04-12.56.10:491][ 26]Warning: Starting HotReload took  0.7s.
+[2018.12.04-12.56.35:660][202]CompilerResultsLog: New page: Compilation - Dec 4, 2018, 12:56:35 AM
+[2018.12.04-12.56.35:660][202]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.04-12.56.35:660][202]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.04-12.56.35:660][202]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.04-12.56.35:660][202]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 13.5906 seconds
+[2018.12.04-12.56.35:660][202]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:   [1/5] GranadeLauncherTest.init.gen.cpp
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:   [2/5] AICharacter.cpp
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:   D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(9): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:   D:\Unreal\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:   [3/5] AICharacter.gen.cpp
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:   [4/5] UE4Editor-GranadeLauncherTest-4442.lib
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-4442.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-4442.exp
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:   [5/5] UE4Editor-GranadeLauncherTest-4442.dll
+[2018.12.04-12.56.35:660][202]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-4442.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-4442.suppressed.exp
+[2018.12.04-12.56.35:660][202]CompilerResultsLog: Total build time: 24.59 seconds (Parallel executor: 3.17 seconds)
+[2018.12.04-12.56.35:660][202]LogMainFrame: MainFrame: Module compiling took 25.899 seconds
+[2018.12.04-12.56.35:692][202]LogClass: Could not find existing class AICharacter in package /Script/GranadeLauncherTest for HotReload, assuming new class
+[2018.12.04-12.56.35:694][202]LogClass: Function OnBoxEndOverlap is new.
+[2018.12.04-12.56.35:694][202]LogClass: Function OnBoxOverlap is new.
+[2018.12.04-12.56.35:694][202]LogClass: Function Talk is new.
+[2018.12.04-12.56.35:698][202]LogClass: DialogStruct HotReload.
+[2018.12.04-12.56.35:698][202]LogClass: SubtitleStruct HotReload.
+[2018.12.04-12.56.35:739][202]LogHotReload: Re-instancing AICharacter after hot-reload.
+[2018.12.04-12.56.35:872][202]LogContentBrowser: Native class hierarchy updated for 'GranadeLauncherTest' in 0.0014 seconds. Added 5 classes and 2 folders.
+[2018.12.04-12.56.35:875][202]Display: HotReload successful (2 functions remapped  2 scriptstructs remapped)
+[2018.12.04-12.56.35:948][202]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2587 classes and 612 folders.
+[2018.12.04-12.56.35:948][202]Display: HotReload took 26.2s.
+[2018.12.04-12.57.34:092][177]LogSlate: Took 0.001111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.04-12.57.34:374][177]LogSlate: Took 0.061731 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.04-12.58.04:634][983]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.04-12.58.36:130][806]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPAICharacter.BPAICharacter
+[2018.12.04-12.58.37:850][806]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.12.04-12.58.40:274][806]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.04-12.58.41:513][807]LogRenderer: Reallocating scene render targets to support 900x456 Format 10 NumSamples 1 (Frame:1).
+[2018.12.04-12.58.44:611][974]LogSlate: Took 0.023695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.04-13.00.34:768][ 12]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.044
+[2018.12.04-13.00.34:816][ 12]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BPAICharacter] ([1] browsable assets)...
+[2018.12.04-13.00.34:816][ 12]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BPAICharacter]
+[2018.12.04-13.00.34:982][ 12]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPAICharacter_Auto15115A64C414DF1AADC519B86DB233D60.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Autosaves/Game/BluePrints/BPAICharacter_Auto1.uasset'
+[2018.12.04-13.00.35:010][ 12]LogFileHelpers: Auto-saving content packages took 0.241
+[2018.12.04-13.01.56:832][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPAICharacter" FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPAICharacter.uasset" SILENT=true
+[2018.12.04-13.01.56:891][129]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPAICharacterBE67AEE24D58CFBECACA01BBAFEFDBBF.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPAICharacter.uasset'
+[2018.12.04-13.02.00:433][331]LogSlate: Window 'BPAICharacter' being destroyed
+[2018.12.04-13.02.00:437][331]LogSlate: Window 'BPAICharacter' being destroyed
+[2018.12.04-13.02.36:792][933]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPAICharacter.BPAICharacter
+[2018.12.04-13.02.37:088][933]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.12.04-13.02.42:400][232]LogSlate: Window 'CompilerResults' being destroyed
+[2018.12.04-13.02.42:404][232]LogSlate: Window 'CompilerResults' being destroyed
+[2018.12.04-13.02.44:467][356]BlueprintLog: New page: Compile BPAICharacter
+[2018.12.04-13.02.46:927][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPAICharacter" FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPAICharacter.uasset" SILENT=true
+[2018.12.04-13.02.46:967][486]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPAICharacter4FD122604B009AA4C156B2AEE37E9B35.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPAICharacter.uasset'
+[2018.12.04-13.02.51:540][759]Cmd: TRANSACTION UNDO
+[2018.12.04-13.02.51:574][759]LogEditorTransaction: Undo Edit Skeletal Mesh
+[2018.12.04-13.02.57:385][ 90]Cmd: TRANSACTION REDO
+[2018.12.04-13.02.57:385][ 90]LogEditorTransaction: Redo Edit Skeletal Mesh
+[2018.12.04-13.03.01:886][354]Cmd: TRANSACTION UNDO
+[2018.12.04-13.03.01:886][354]LogEditorTransaction: Undo Edit Skeletal Mesh
+[2018.12.04-13.03.04:146][489]LogSlate: Window 'BPAICharacter*' being destroyed
+[2018.12.04-13.03.04:151][489]LogSlate: Window 'BPAICharacter*' being destroyed
+[2018.12.04-13.03.19:421][638]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.04-13.03.37:056][686]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPAICharacter2.BPAICharacter2
+[2018.12.04-13.03.37:426][686]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.04-13.04.36:163][275]LogEditorTransaction: Undo Edit Skeletal Mesh
+[2018.12.04-13.04.36:235][275]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BPAICharacter2_C_0.DrawFrustumComponent_0) Component already registered.
+[2018.12.04-13.04.36:238][275]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.BPAICharacter2_C_0.StaticMeshComponent_0) Component already registered.
+[2018.12.04-13.05.33:449][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPAICharacter2" FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPAICharacter2.uasset" SILENT=true
+[2018.12.04-13.05.33:487][616]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPAICharacter2BF197FF54C391F29D52B77BC79706B9A.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPAICharacter2.uasset'
+[2018.12.04-13.05.34:400][670]BlueprintLog: New page: Compile BPAICharacter2
+[2018.12.04-13.08.51:807][556]Running D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -invalidatemakefilesonly
+[2018.12.04-13.08.54:822][556]Invalidating makefiles only in this run.
+[2018.12.04-13.08.54:961][556]Candidate modules for hot reload:
+[2018.12.04-13.08.54:961][556]  GranadeLauncherTest
+[2018.12.04-13.08.54:961][556]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,495 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
+[2018.12.04-13.10.00:455][556]CompilerResultsLog: New page: Compilation - Dec 4, 2018, 1:10:00 AM
+[2018.12.04-13.10.00:456][556]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.04-13.10.00:456][556]CompilerResultsLog: Creating makefile for hot reloading GranadeLauncherTestEditor (no existing makefile)
+[2018.12.04-13.10.00:456][556]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.04-13.10.00:456][556]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (D:\VS2017\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.04-13.10.00:456][556]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.04-13.10.00:456][556]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 14.5035246 seconds
+[2018.12.04-13.10.00:456][556]CompilerResultsLog: Building 20 actions with 8 processes...
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [1/20] GranadeLauncherTest.init.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [2/20] SubtitleStruct.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [3/20] GranadeLauncherTestHUD.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [4/20] GranadeLauncherTestProjectile.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [5/20] GranadeLauncherTestGameMode.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [6/20] GranadeLauncherTestCharacter.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [7/20] DialogStruct.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [8/20] AICharacter.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [9/20] GranadeLauncherTestHUD.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [10/20] GranadeLauncherTestGameMode.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [11/20] DialogUI.gen.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [12/20] DialogStruct.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [13/20] SubtitleStruct.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [14/20] DialogUI.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [15/20] GranadeLauncherTestProjectile.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [16/20] AICharacter.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(9): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   D:\Unreal\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [17/20] GranadeLauncherTestCharacter.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [18/20] GranadeLauncherTest.cpp
+[2018.12.04-13.10.00:456][556]CompilerResultsLog:   [19/20] UE4Editor-GranadeLauncherTest-495.lib
+[2018.12.04-13.10.00:457][556]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-495.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-495.exp
+[2018.12.04-13.10.00:457][556]CompilerResultsLog:   [20/20] UE4Editor-GranadeLauncherTest-495.dll
+[2018.12.04-13.10.00:457][556]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-495.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-495.suppressed.exp
+[2018.12.04-13.10.00:457][556]CompilerResultsLog: Total build time: 64.36 seconds (Parallel executor: 34.55 seconds)
+[2018.12.04-13.10.00:457][556]LogMainFrame: MainFrame: Module compiling took 65.500 seconds
+[2018.12.04-13.10.00:509][556]LogClass: Could not find existing class DialogUI in package /Script/GranadeLauncherTest for HotReload, assuming new class
+[2018.12.04-13.10.00:515][556]LogClass: DialogStruct HotReload.
+[2018.12.04-13.10.00:515][556]LogClass: SubtitleStruct HotReload.
+[2018.12.04-13.10.00:524][556]LogContentBrowser: Native class hierarchy updated for 'GranadeLauncherTest' in 0.0011 seconds. Added 6 classes and 2 folders.
+[2018.12.04-13.10.00:528][556]Display: HotReload successful (5 functions remapped  2 scriptstructs remapped)
+[2018.12.04-13.10.00:963][556]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2588 classes and 612 folders.
+[2018.12.04-13.10.00:963][556]Display: HotReload took 66.0s.
+[2018.12.04-13.10.00:965][556]Warning: HotReload operation took 66.0s.
+[2018.12.04-13.10.01:537][556]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.12.04-13.10.01:552][556]LogHotReload: New module detected: UE4Editor-GranadeLauncherTest-495.dll
+[2018.12.04-13.10.01:647][557]LogHotReload: Starting Hot-Reload from IDE
+[2018.12.04-13.10.01:841][557]LogContentBrowser: Native class hierarchy updated for 'GranadeLauncherTest' in 0.0011 seconds. Added 6 classes and 2 folders.
+[2018.12.04-13.10.01:852][557]Display: HotReload successful (0 functions remapped  2 scriptstructs remapped)
+[2018.12.04-13.10.02:389][557]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2588 classes and 612 folders.
+[2018.12.04-13.10.02:395][557]Display: HotReload took  0.7s.
+[2018.12.04-13.11.47:291][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.069
+[2018.12.04-13.11.47:294][870]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BPAICharacter] ([1] browsable assets)...
+[2018.12.04-13.11.47:294][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BPAICharacter]
+[2018.12.04-13.11.47:326][870]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPAICharacter_Auto2F8D7ECD949EEEF9F9A50EBBED41A11F6.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Autosaves/Game/BluePrints/BPAICharacter_Auto2.uasset'
+[2018.12.04-13.11.47:331][870]LogFileHelpers: Auto-saving content packages took 0.039
+[2018.12.04-13.16.54:982][836]Candidate modules for hot reload:
+[2018.12.04-13.16.54:982][836]  GranadeLauncherTest
+[2018.12.04-13.16.54:983][836]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,4837 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
+[2018.12.04-13.16.55:601][836]Warning: Starting HotReload took  0.6s.
+[2018.12.04-13.17.18:681][888]CompilerResultsLog: New page: Compilation - Dec 4, 2018, 1:17:18 AM
+[2018.12.04-13.17.18:681][888]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.04-13.17.18:682][888]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.04-13.17.18:682][888]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
+[2018.12.04-13.17.18:682][888]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.04-13.17.18:682][888]CompilerResultsLog: Error: D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Source/GranadeLauncherTest/DialogUI.h(26)  : Error: Unrecognized type 'FSubtitle' - type must be a UCLASS, USTRUCT or UENUM
+[2018.12.04-13.17.18:682][888]CompilerResultsLog: UnrealHeaderTool failed for target 'GranadeLauncherTestEditor' (platform: Win64, module info: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest).
+[2018.12.04-13.17.18:682][888]LogMainFrame: MainFrame: Module compiling took 23.704 seconds
+[2018.12.04-13.17.18:682][888]Warning: HotReload failed, recompile failed
+[2018.12.04-13.17.59:991][332]Candidate modules for hot reload:
+[2018.12.04-13.17.59:991][332]  GranadeLauncherTest
+[2018.12.04-13.17.59:992][332]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,36 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
+[2018.12.04-13.18.00:712][332]Warning: Starting HotReload took  0.7s.
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: New page: Compilation - Dec 4, 2018, 1:18:27 AM
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 13.5505282 seconds
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:   [1/5] GranadeLauncherTest.init.gen.cpp
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:   [2/5] DialogUI.cpp
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:   [3/5] DialogUI.gen.cpp
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:   [4/5] UE4Editor-GranadeLauncherTest-36.lib
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-36.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-36.exp
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:   [5/5] UE4Editor-GranadeLauncherTest-36.dll
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-36.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-36.suppressed.exp
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Error:   DialogUI.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl UDialogUI::UpdateSubtitles(class TArray<struct FSubtitleStruct,class FDefaultAllocator>)" (?UpdateSubtitles@UDialogUI@@QEAAXV?$TArray@UFSubtitleStruct@@VFDefaultAllocator@@@@@Z) referenced in function "public: static void __cdecl UDialogUI::execUpdateSubtitles(class UObject *,struct FFrame &,void * const)" (?execUpdateSubtitles@UDialogUI@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z)
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Error:   DialogUI.gen.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl UDialogUI::UpdateSubtitles(class TArray<struct FSubtitleStruct,class FDefaultAllocator>)" (?UpdateSubtitles@UDialogUI@@QEAAXV?$TArray@UFSubtitleStruct@@VFDefaultAllocator@@@@@Z)
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Error:   D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-36.dll : fatal error LNK1120: 1 unresolved externals
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-36.dll
+[2018.12.04-13.18.27:802][547]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.12.04-13.18.27:802][547]CompilerResultsLog: Total build time: 26.47 seconds (Parallel executor: 0.00 seconds)
+[2018.12.04-13.18.27:802][547]LogMainFrame: MainFrame: Module compiling took 27.817 seconds
+[2018.12.04-13.18.27:802][547]Warning: HotReload failed, recompile failed
+[2018.12.04-13.18.55:147][ 76]Candidate modules for hot reload:
+[2018.12.04-13.18.55:147][ 76]  GranadeLauncherTest
+[2018.12.04-13.18.55:148][ 76]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,2177 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
+[2018.12.04-13.18.55:792][ 76]Warning: Starting HotReload took  0.7s.
+[2018.12.04-13.19.07:516][701]CompilerResultsLog: New page: Compilation - Dec 4, 2018, 1:19:07 AM
+[2018.12.04-13.19.07:516][701]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.04-13.19.07:516][701]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.04-13.19.07:516][701]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.12.04-13.19.07:516][701]CompilerResultsLog:   [1/3] DialogUI.cpp
+[2018.12.04-13.19.07:517][701]CompilerResultsLog:   [2/3] UE4Editor-GranadeLauncherTest-2177.lib
+[2018.12.04-13.19.07:517][701]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-2177.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-2177.exp
+[2018.12.04-13.19.07:517][701]CompilerResultsLog:   [3/3] UE4Editor-GranadeLauncherTest-2177.dll
+[2018.12.04-13.19.07:517][701]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-2177.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-2177.suppressed.exp
+[2018.12.04-13.19.07:517][701]CompilerResultsLog: Total build time: 11.30 seconds (Parallel executor: 4.35 seconds)
+[2018.12.04-13.19.07:517][701]LogMainFrame: MainFrame: Module compiling took 12.374 seconds
+[2018.12.04-13.19.07:580][701]LogClass: Could not find existing class DialogUI in package /Script/GranadeLauncherTest for HotReload, assuming new class
+[2018.12.04-13.19.07:580][701]LogClass: Function UpdateSubtitles is new.
+[2018.12.04-13.19.07:587][701]LogClass: DialogStruct HotReload.
+[2018.12.04-13.19.07:587][701]LogClass: SubtitleStruct HotReload.
+[2018.12.04-13.19.07:600][701]LogHotReload: Re-instancing DialogUI after hot-reload.
+[2018.12.04-13.19.07:754][701]LogContentBrowser: Native class hierarchy updated for 'GranadeLauncherTest' in 0.0010 seconds. Added 6 classes and 2 folders.
+[2018.12.04-13.19.07:759][701]Display: HotReload successful (5 functions remapped  2 scriptstructs remapped)
+[2018.12.04-13.19.08:213][701]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2588 classes and 612 folders.
+[2018.12.04-13.19.08:213][701]Display: HotReload took 13.1s.
+[2018.12.04-13.19.32:483][399]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPDialogUI.BPDialogUI
+[2018.12.04-13.19.32:922][399]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.04-13.22.19:240][425]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.085
+[2018.12.04-13.22.19:244][425]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BPDialogUI] ([1] browsable assets)...
+[2018.12.04-13.22.19:244][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BPDialogUI]
+[2018.12.04-13.22.19:314][425]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUI_Auto33D3FBAE948B671417CF75AB8C26488AB.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Autosaves/Game/BluePrints/BPDialogUI_Auto3.uasset'
+[2018.12.04-13.22.19:319][425]LogFileHelpers: Auto-saving content packages took 0.078
+[2018.12.04-13.22.49:536][147]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.12.04-13.22.49:542][147]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.12.04-13.23.59:148][622]Cmd: TRANSACTION UNDO
+[2018.12.04-13.23.59:148][622]LogEditorTransaction: Undo Edit Preview Background
+[2018.12.04-13.28.42:937][765]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPDialogUI2.BPDialogUI2
+[2018.12.04-13.28.43:307][765]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.04-13.32.08:411][341]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget
+[2018.12.04-13.32.33:232][411]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.108
+[2018.12.04-13.32.33:236][411]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BPDialogUI] ([1] browsable assets)...
+[2018.12.04-13.32.33:236][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BPDialogUI]
+[2018.12.04-13.32.33:250][411]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUI_Auto4841446304F964D3DD3EE2FAEBA23BF8F.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Autosaves/Game/BluePrints/BPDialogUI_Auto4.uasset'
+[2018.12.04-13.32.33:258][411]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BPDialogUI2] ([1] browsable assets)...
+[2018.12.04-13.32.33:258][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BPDialogUI2]
+[2018.12.04-13.32.33:272][411]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUI2_Auto4135D1173494A319E3EA69BB75B7439D7.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Autosaves/Game/BluePrints/BPDialogUI2_Auto4.uasset'
+[2018.12.04-13.32.33:279][411]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BPDialogUIWidget] ([1] browsable assets)...
+[2018.12.04-13.32.33:279][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BPDialogUIWidget]
+[2018.12.04-13.32.33:292][411]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUIWidget_Auto44F574A5E478DF9D8E003819BB157F84C.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Autosaves/Game/BluePrints/BPDialogUIWidget_Auto4.uasset'
+[2018.12.04-13.32.33:298][411]LogFileHelpers: Auto-saving content packages took 0.064
+[2018.12.04-13.33.46:346][234]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.04-13.33.53:047][613]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget from UserWidget to DialogUI...
+[2018.12.04-13.33.53:074][613]BlueprintLog: New page: Compile BPDialogUIWidget
+[2018.12.04-13.34.26:209][657]LogEditorTransaction: Undo Resize Widget
+[2018.12.04-13.34.28:208][733]LogEditorTransaction: Undo Add Widget
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_3.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget:WidgetTree.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_4.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_6.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_7.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_8.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_9.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_10.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_11.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_12.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_8.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_9.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_10.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_11.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.29:587][984]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_12.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.29:599][984]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Button_107).  Import failed...
+[2018.12.04-13.35.29:599][984]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_3.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget:WidgetTree.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_4.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_6.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_7.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_8.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_9.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_10.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_11.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_12.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_13.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_8.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_9.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_10.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_11.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_12.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.30:406][ 18]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_13.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.30:406][ 18]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Button_107).  Import failed...
+[2018.12.04-13.35.30:406][ 18]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_3.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget:WidgetTree.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_4.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_6.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_7.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_8.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_9.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_10.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_11.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_12.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_13.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_14.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_10:BPDialogUIWidget_C_15.WidgetTree_0.CanvasPanel_0
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_8.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_9.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_10.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_11.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_12.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_13.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_14.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_15.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.12.04-13.35.38:719][412]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_10:BPDialogUIWidget_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Button_107).  Import failed...
+[2018.12.04-13.35.38:719][412]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2018.12.04-13.39.15:860][748]LogEditorTransaction: Undo Add New Function
+[2018.12.04-13.39.19:207][945]LogEditorTransaction: Undo Add New Function
+[2018.12.04-13.39.25:334][308]LogEditorTransaction: Undo Add New Event Dispatcher
+[2018.12.04-13.39.41:847][290]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUIWidget559C673B4D694872870A06A5ECFBC742.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPDialogUIWidget.uasset'
+[2018.12.04-13.39.42:585][333]BlueprintLog: New page: Compile BPDialogUIWidget
+[2018.12.04-13.40.34:069][177]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUIWidget1027EBFD446674CDB08FF59A97737191.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPDialogUIWidget.uasset'
+[2018.12.04-13.40.34:672][212]BlueprintLog: New page: Compile BPDialogUIWidget
+[2018.12.04-13.40.42:218][656]LogEditorTransaction: Undo Add New Function
+[2018.12.04-13.42.32:552][673]LogEditorTransaction: Undo Rename Event Dispatcher
+[2018.12.04-13.42.34:132][767]LogEditorTransaction: Undo Add New Event Dispatcher
+[2018.12.04-13.43.52:424][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.042
+[2018.12.04-13.43.52:428][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BPDialogUIWidget] ([1] browsable assets)...
+[2018.12.04-13.43.52:428][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BPDialogUIWidget]
+[2018.12.04-13.43.52:449][ 49]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUIWidget_Auto5DCCABCCB43A36311F1C2C4A47324525E.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Autosaves/Game/BluePrints/BPDialogUIWidget_Auto5.uasset'
+[2018.12.04-13.43.52:453][ 49]LogFileHelpers: Auto-saving content packages took 0.028
+[2018.12.04-13.45.56:034][515]LogEditorTransaction: Undo Rename Node
+[2018.12.04-13.45.56:908][566]LogEditorTransaction: Undo Add Node
+[2018.12.04-13.45.59:309][704]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUIWidgetC2CBE4D54E5FFBFBB083A79FB55097DE.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPDialogUIWidget.uasset'
+[2018.12.04-13.45.59:959][742]BlueprintLog: New page: Compile BPDialogUIWidget
+[2018.12.04-13.46.02:240][873]LogRenderer: Reallocating scene render targets to support 900x540 Format 10 NumSamples 1 (Frame:5385).
+[2018.12.04-13.46.07:089][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPDialogUI" FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPDialogUI.uasset" SILENT=true
+[2018.12.04-13.46.07:104][159]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUID74669744DCECA32B224DBAE77392F98.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPDialogUI.uasset'
+[2018.12.04-13.46.07:622][189]BlueprintLog: New page: Compile BPDialogUI
+[2018.12.04-13.46.09:213][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPDialogUI2" FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPDialogUI2.uasset" SILENT=true
+[2018.12.04-13.46.09:227][279]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPDialogUI2559C917345FC70BA66136995CE977356.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPDialogUI2.uasset'
+[2018.12.04-13.46.09:810][313]BlueprintLog: New page: Compile BPDialogUI2
+[2018.12.04-13.46.11:722][423]LogSlate: Window 'BPDialogUIWidget' being destroyed
+[2018.12.04-13.46.11:728][423]LogSlate: Window 'BPDialogUIWidget' being destroyed
+[2018.12.04-13.46.18:663][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BPAICharacter" FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPAICharacter.uasset" SILENT=true
+[2018.12.04-13.46.18:693][796]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/BPAICharacter0A8DEEEC49567A393CC64D844D45A3B7.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/BluePrints/BPAICharacter.uasset'
+[2018.12.04-13.46.20:286][879]LogSlate: Window 'GranadeLauncherTest - Unreal Editor' being destroyed
+[2018.12.04-13.46.20:287][879]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.04-13.46.20:556][880]Cmd: QUIT_EDITOR
+[2018.12.04-13.46.20:932][880]LogExit: Preparing to exit.
+[2018.12.04-13.46.21:930][880]LogExit: Editor shut down
+[2018.12.04-13.46.21:933][880]LogExit: Transaction tracking system shut down
+[2018.12.04-13.46.23:437][880]LogExit: Object subsystem successfully closed.
+[2018.12.04-13.46.23:623][880]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.04-13.46.23:678][880]LogD3D11RHI: Shutdown
+[2018.12.04-13.46.23:678][880]LogD3D11RHI: CleanupD3DDevice
+[2018.12.04-13.46.23:709][880]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.04-13.46.24:737][880]LogModuleManager: Shutting down and abandoning module SequencerWidgets (625)
+[2018.12.04-13.46.24:737][880]LogModuleManager: Shutting down and abandoning module GranadeLauncherTest (623)
+[2018.12.04-13.46.24:737][880]LogModuleManager: Shutting down and abandoning module BlueprintGraph (620)
+[2018.12.04-13.46.24:737][880]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (616)
+[2018.12.04-13.46.24:738][880]LogModuleManager: Shutting down and abandoning module SceneOutliner (614)
+[2018.12.04-13.46.24:738][880]LogModuleManager: Shutting down and abandoning module AddContentDialog (612)
+[2018.12.04-13.46.24:760][880]LogModuleManager: Shutting down and abandoning module WidgetCarousel (611)
+[2018.12.04-13.46.24:760][880]LogModuleManager: Shutting down and abandoning module EditorWidgets (608)
+[2018.12.04-13.46.24:760][880]LogModuleManager: Shutting down and abandoning module CollectionManager (606)
+[2018.12.04-13.46.24:768][880]LogModuleManager: Shutting down and abandoning module StatsViewer (604)
+[2018.12.04-13.46.24:783][880]LogModuleManager: Shutting down and abandoning module FoliageEdit (602)
+[2018.12.04-13.46.24:793][880]LogModuleManager: Shutting down and abandoning module LandscapeEditor (600)
+[2018.12.04-13.46.24:836][880]LogModuleManager: Shutting down and abandoning module MeshPaintMode (598)
+[2018.12.04-13.46.24:846][880]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (596)
+[2018.12.04-13.46.24:846][880]LogModuleManager: Shutting down and abandoning module ActorPickerMode (594)
+[2018.12.04-13.46.24:846][880]LogModuleManager: Shutting down and abandoning module GeometryMode (592)
+[2018.12.04-13.46.24:846][880]LogModuleManager: Shutting down and abandoning module TextureAlignMode (590)
+[2018.12.04-13.46.24:846][880]LogModuleManager: Shutting down and abandoning module BspMode (588)
+[2018.12.04-13.46.24:846][880]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (586)
+[2018.12.04-13.46.24:852][880]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (584)
+[2018.12.04-13.46.24:859][880]LogModuleManager: Shutting down and abandoning module AutomationWorker (582)
+[2018.12.04-13.46.24:859][880]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (580)
+[2018.12.04-13.46.24:859][880]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
+[2018.12.04-13.46.24:871][880]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (576)
+[2018.12.04-13.46.24:884][880]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (574)
+[2018.12.04-13.46.24:884][880]LogModuleManager: Shutting down and abandoning module PlacementMode (573)
+[2018.12.04-13.46.24:884][880]LogModuleManager: Shutting down and abandoning module MaterialEditor (572)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (568)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (566)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (564)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2018.12.04-13.46.24:926][880]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2018.12.04-13.46.24:993][880]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2018.12.04-13.46.25:009][880]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2018.12.04-13.46.25:022][880]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2018.12.04-13.46.25:032][880]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2018.12.04-13.46.25:033][880]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2018.12.04-13.46.25:033][880]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2018.12.04-13.46.25:047][880]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2018.12.04-13.46.25:047][880]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2018.12.04-13.46.25:047][880]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2018.12.04-13.46.25:466][880]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2018.12.04-13.46.25:466][880]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2018.12.04-13.46.25:466][880]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2018.12.04-13.46.25:467][880]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2018.12.04-13.46.25:467][880]LogModuleManager: Shutting down and abandoning module InputBindingEditor (504)
+[2018.12.04-13.46.25:467][880]LogModuleManager: Shutting down and abandoning module MergeActors (502)
+[2018.12.04-13.46.25:506][880]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (500)
+[2018.12.04-13.46.25:506][880]LogModuleManager: Shutting down and abandoning module LocalizationService (499)
+[2018.12.04-13.46.25:507][880]LogModuleManager: Shutting down and abandoning module HardwareTargeting (496)
+[2018.12.04-13.46.25:507][880]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (494)
+[2018.12.04-13.46.25:507][880]LogModuleManager: Shutting down and abandoning module UndoHistory (492)
+[2018.12.04-13.46.25:519][880]LogModuleManager: Shutting down and abandoning module XmlParser (490)
+[2018.12.04-13.46.25:519][880]LogModuleManager: Shutting down and abandoning module Blutility (488)
+[2018.12.04-13.46.25:519][880]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (486)
+[2018.12.04-13.46.25:519][880]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (485)
+[2018.12.04-13.46.25:519][880]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (482)
+[2018.12.04-13.46.25:519][880]LogModuleManager: Shutting down and abandoning module SettingsEditor (480)
+[2018.12.04-13.46.25:549][880]LogModuleManager: Shutting down and abandoning module ProjectLauncher (478)
+[2018.12.04-13.46.25:571][880]LogModuleManager: Shutting down and abandoning module SessionFrontend (476)
+[2018.12.04-13.46.25:583][880]LogModuleManager: Shutting down and abandoning module ProfilerClient (474)
+[2018.12.04-13.46.25:592][880]LogModuleManager: Shutting down and abandoning module DeviceManager (472)
+[2018.12.04-13.46.25:602][880]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (471)
+[2018.12.04-13.46.25:668][880]LogModuleManager: Shutting down and abandoning module AutomationController (468)
+[2018.12.04-13.46.25:690][880]LogModuleManager: Shutting down and abandoning module AutomationWindow (466)
+[2018.12.04-13.46.25:700][880]LogModuleManager: Shutting down and abandoning module Layers (464)
+[2018.12.04-13.46.25:771][880]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (462)
+[2018.12.04-13.46.25:771][880]LogModuleManager: Shutting down and abandoning module DetailCustomizations (460)
+[2018.12.04-13.46.25:771][880]LogModuleManager: Shutting down and abandoning module PackagesDialog (458)
+[2018.12.04-13.46.25:772][880]LogModuleManager: Shutting down and abandoning module Persona (456)
+[2018.12.04-13.46.25:824][880]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (455)
+[2018.12.04-13.46.25:824][880]LogModuleManager: Shutting down and abandoning module AnimGraph (453)
+[2018.12.04-13.46.25:824][880]LogModuleManager: Shutting down and abandoning module Kismet (450)
+[2018.12.04-13.46.25:847][880]LogModuleManager: Shutting down and abandoning module GraphEditor (448)
+[2018.12.04-13.46.25:847][880]LogModuleManager: Shutting down and abandoning module ClassViewer (446)
+[2018.12.04-13.46.25:849][880]LogModuleManager: Shutting down and abandoning module Toolbox (444)
+[2018.12.04-13.46.25:849][880]LogModuleManager: Shutting down and abandoning module DesktopPlatform (443)
+[2018.12.04-13.46.25:849][880]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
+[2018.12.04-13.46.25:862][880]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
+[2018.12.04-13.46.25:916][880]LogModuleManager: Shutting down and abandoning module OutputLog (436)
+[2018.12.04-13.46.25:917][880]LogModuleManager: Shutting down and abandoning module GammaUI (434)
+[2018.12.04-13.46.25:934][880]LogModuleManager: Shutting down and abandoning module Documentation (432)
+[2018.12.04-13.46.25:934][880]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
+[2018.12.04-13.46.25:934][880]LogModuleManager: Shutting down and abandoning module MovieScene (428)
+[2018.12.04-13.46.25:934][880]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
+[2018.12.04-13.46.25:945][880]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
+[2018.12.04-13.46.25:945][880]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
+[2018.12.04-13.46.25:945][880]LogModuleManager: Shutting down and abandoning module PortalServices (420)
+[2018.12.04-13.46.25:945][880]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
+[2018.12.04-13.46.25:945][880]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
+[2018.12.04-13.46.25:945][880]LogModuleManager: Shutting down and abandoning module AIModule (414)
+[2018.12.04-13.46.25:979][880]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
+[2018.12.04-13.46.25:987][880]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
+[2018.12.04-13.46.25:998][880]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
+[2018.12.04-13.46.25:998][880]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
+[2018.12.04-13.46.26:069][880]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
+[2018.12.04-13.46.26:069][880]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
+[2018.12.04-13.46.26:069][880]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
+[2018.12.04-13.46.26:069][880]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
+[2018.12.04-13.46.26:086][880]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2018.12.04-13.46.26:086][880]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2018.12.04-13.46.26:086][880]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (376)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
+[2018.12.04-13.46.26:099][880]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module HTML5Networking (368)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (366)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (364)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module BackChannel (362)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module AppleVision (360)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module AppleImageUtils (358)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module AlembicImporter (356)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module AlembicLibrary (355)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
+[2018.12.04-13.46.26:116][880]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
+[2018.12.04-13.46.26:126][880]LogModuleManager: Shutting down and abandoning module DatasmithContent (346)
+[2018.12.04-13.46.26:128][880]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (344)
+[2018.12.04-13.46.26:128][880]LogModuleManager: Shutting down and abandoning module PluginBrowser (342)
+[2018.12.04-13.46.26:197][880]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (340)
+[2018.12.04-13.46.26:200][880]LogModuleManager: Shutting down and abandoning module PolygonModeling (338)
+[2018.12.04-13.46.26:200][880]LogModuleManager: Shutting down and abandoning module MeshEditor (336)
+[2018.12.04-13.46.26:202][880]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (334)
+[2018.12.04-13.46.26:211][880]LogModuleManager: Shutting down and abandoning module CryptoKeys (332)
+[2018.12.04-13.46.26:211][880]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (330)
+[2018.12.04-13.46.26:211][880]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (328)
+[2018.12.04-13.46.26:211][880]LogModuleManager: Shutting down and abandoning module UObjectPlugin (326)
+[2018.12.04-13.46.26:211][880]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (324)
+[2018.12.04-13.46.26:215][880]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (322)
+[2018.12.04-13.46.26:223][880]LogModuleManager: Shutting down and abandoning module GitSourceControl (320)
+[2018.12.04-13.46.26:223][880]LogModuleManager: Shutting down and abandoning module SourceControl (319)
+[2018.12.04-13.46.26:242][880]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (316)
+[2018.12.04-13.46.26:243][880]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (314)
+[2018.12.04-13.46.26:243][880]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (312)
+[2018.12.04-13.46.26:244][880]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (310)
+[2018.12.04-13.46.26:244][880]LogModuleManager: Shutting down and abandoning module Paper2DEditor (308)
+[2018.12.04-13.46.26:244][880]LogModuleManager: Shutting down and abandoning module MeshPaint (307)
+[2018.12.04-13.46.26:297][880]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
+[2018.12.04-13.46.26:297][880]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
+[2018.12.04-13.46.26:298][880]LogModuleManager: Shutting down and abandoning module PhysXVehicles (298)
+[2018.12.04-13.46.26:298][880]LogModuleManager: Shutting down and abandoning module OculusEditor (296)
+[2018.12.04-13.46.26:298][880]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
+[2018.12.04-13.46.26:298][880]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (292)
+[2018.12.04-13.46.26:298][880]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (290)
+[2018.12.04-13.46.26:937][880]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
+[2018.12.04-13.46.26:937][880]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
+[2018.12.04-13.46.27:044][880]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.12.04-13.46.27:044][880]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.12.04-13.46.27:146][880]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.12.04-13.46.27:283][880]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.12.04-13.46.27:283][880]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.12.04-13.46.27:283][880]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.12.04-13.46.27:283][880]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.12.04-13.46.27:283][880]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.12.04-13.46.27:283][880]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.12.04-13.46.27:283][880]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.12.04-13.46.27:297][880]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.12.04-13.46.27:316][880]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.12.04-13.46.27:316][880]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.12.04-13.46.27:316][880]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.12.04-13.46.27:317][880]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.12.04-13.46.27:319][880]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.12.04-13.46.27:325][880]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.12.04-13.46.27:325][880]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.12.04-13.46.27:325][880]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.12.04-13.46.27:325][880]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.12.04-13.46.27:341][880]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.12.04-13.46.27:351][880]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.12.04-13.46.27:358][880]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.12.04-13.46.27:358][880]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.12.04-13.46.27:358][880]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.12.04-13.46.27:377][880]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.12.04-13.46.27:391][880]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.12.04-13.46.27:391][880]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.12.04-13.46.27:391][880]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.12.04-13.46.27:400][880]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.12.04-13.46.27:422][880]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.12.04-13.46.27:422][880]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.12.04-13.46.27:454][880]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.12.04-13.46.27:466][880]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.12.04-13.46.27:467][880]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.12.04-13.46.27:467][880]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.12.04-13.46.27:478][880]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.12.04-13.46.27:478][880]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.12.04-13.46.27:510][880]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.12.04-13.46.27:510][880]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.12.04-13.46.27:511][880]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.12.04-13.46.27:511][880]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.12.04-13.46.27:514][880]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.12.04-13.46.27:557][880]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.12.04-13.46.27:557][880]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.12.04-13.46.27:557][880]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.12.04-13.46.27:571][880]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.12.04-13.46.27:595][880]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.12.04-13.46.27:595][880]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.12.04-13.46.27:612][880]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.12.04-13.46.27:633][880]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.12.04-13.46.27:634][880]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.12.04-13.46.27:714][880]LogDerivedDataCache: Shutdown
+[2018.12.04-13.46.27:714][880]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.12.04-13.46.27:714][880]LogXGEController: Cleaning working directory: C:/Users/BrieAnna/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.04-13.46.27:714][880]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.12.04-13.46.27:715][880]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.12.04-13.46.27:728][880]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.12.04-13.46.27:736][880]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.12.04-13.46.27:744][880]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.12.04-13.46.27:744][880]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.12.04-13.46.27:744][880]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.12.04-13.46.27:744][880]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.12.04-13.46.27:744][880]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.12.04-13.46.27:752][880]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.12.04-13.46.27:768][880]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.12.04-13.46.27:768][880]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.12.04-13.46.27:768][880]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.12.04-13.46.27:768][880]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.12.04-13.46.27:768][880]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.12.04-13.46.27:768][880]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.12.04-13.46.27:768][880]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.12.04-13.46.27:768][880]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.12.04-13.46.27:769][880]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.12.04-13.46.27:769][880]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.12.04-13.46.27:769][880]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.12.04-13.46.27:769][880]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.12.04-13.46.27:784][880]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.12.04-13.46.27:784][880]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.12.04-13.46.27:792][880]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.12.04-13.46.27:792][880]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.12.04-13.46.27:853][880]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.12.04-13.46.27:854][880]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.12.04-13.46.27:854][880]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.12.04-13.46.27:854][880]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.12.04-13.46.27:887][880]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.04-13.46.27:916][880]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.04-13.46.27:992][880]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.04-13.46.27:999][880]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.04-13.46.27:999][880]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB90F5409-40B3-B54F-1A7D-0FA05EF18414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=9556cc154714501b863c40bdfe2c8e07%7C1a8f9984db4c4353a49fb71223dcd704%7Cf38051cd-6b46-484a-9985-d4971c83e6e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.04-13.46.28:004][880]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.04-13.46.28:006][880]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.04-13.46.28:006][880]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.04-13.46.28:006][880]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.04-13.46.28:006][880]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.04-13.46.28:006][880]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.04-13.46.28:006][880]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.04-13.46.28:006][880]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.04-13.46.28:006][880]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.04-13.46.28:007][880]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.04-13.46.28:007][880]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.04-13.46.28:007][880]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.04-13.46.28:019][880]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.04-13.46.28:049][880]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.04-13.46.28:049][880]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.04-13.46.28:063][880]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.04-13.46.28:077][880]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.04-13.46.28:077][880]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.04-13.46.28:077][880]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.04-13.46.28:095][880]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.04-13.46.28:095][880]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.04-13.46.28:095][880]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.04-13.46.28:095][880]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.04-13.46.28:095][880]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.04-13.46.28:095][880]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.04-13.46.28:095][880]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.04-13.46.28:105][880]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.04-13.46.28:105][880]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.04-13.46.28:120][880]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.04-13.46.28:120][880]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.04-13.46.28:136][880]LogExit: Exiting.
+[2018.12.04-13.46.28:165][880]Log file closed, 12/04/18 07:46:28

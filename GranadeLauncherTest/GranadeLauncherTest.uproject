@@ -3,17 +3,20 @@
 	"EngineAssociation": "4.20",
 	"Category": "",
 	"Description": "",
-  "Modules": [
-    {
-      "Name": "GranadeLauncherTest",
-      "Type": "Runtime",
-      "LoadingPhase": "Default"
-    }
-  ],
-  "Plugins": [
-    {
-      "Name": "ApexDestruction",
-      "Enabled":  true
-    }
-  ]
+	"Modules": [
+		{
+			"Name": "GranadeLauncherTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		}
+	]
 }

@@ -24,10 +24,12 @@ public:
 
 private:
 	UFUNCTION()
-		void OnBoxOverlap(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherIndex, bool bFromSweep, const FHitResult& SweepResult);
+		void OnBoxOverlap(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherIndex, bool bFromSweep, const FHitResult& SweepResult);
+		//void OnBoxOverlap(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	UFUNCTION()
-		void OnBoxEndOverlap(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherIndex);
+		void OnBoxEndOverlap(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherIndex);
+		//void OnBoxEndOverlap(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherIndex);
 
 	UFUNCTION()
 		void Talk(TArray<FSubtitleStruct> Subs);
@@ -45,7 +47,7 @@ protected:
 		UDataTable* PlayerLines;
 
 	UPROPERTY(EditAnywhere, Category = DialogSystem)
-		UDataTable* AILInes;
+		UDataTable* AILines;
 	
 	
 };

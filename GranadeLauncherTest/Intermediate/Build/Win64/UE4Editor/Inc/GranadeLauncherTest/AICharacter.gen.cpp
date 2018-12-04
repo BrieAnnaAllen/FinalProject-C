@@ -41,6 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 	{
 		struct AICharacter_eventOnBoxEndOverlap_Parms
 		{
+			UPrimitiveComponent* HitComp;
 			AActor* OtherActor;
 			UPrimitiveComponent* OtherComp;
 			int32 OtherIndex;
@@ -51,6 +52,10 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitComp;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -65,14 +70,22 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_OtherComp = { UE4CodeGen_Private::EPropertyClass::Object, "OtherComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(AICharacter_eventOnBoxEndOverlap_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_OtherComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_OtherComp_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(AICharacter_eventOnBoxEndOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_HitComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_HitComp = { UE4CodeGen_Private::EPropertyClass::Object, "HitComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(AICharacter_eventOnBoxEndOverlap_Parms, HitComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_HitComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_HitComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_OtherIndex,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_OtherComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::NewProp_HitComp,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "AICharacter.h" },
+		{ "ToolTip", "void OnBoxOverlap(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherIndex, bool bFromSweep, const FHitResult& SweepResult);" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAICharacter, "OnBoxEndOverlap", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, sizeof(AICharacter_eventOnBoxEndOverlap_Parms), Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap_Statics::Function_MetaDataParams)) };
@@ -89,6 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 	{
 		struct AICharacter_eventOnBoxOverlap_Parms
 		{
+			UPrimitiveComponent* HitComp;
 			AActor* OtherActor;
 			UPrimitiveComponent* OtherComp;
 			int32 OtherIndex;
@@ -107,6 +121,10 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitComp;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -132,12 +150,19 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_OtherComp = { UE4CodeGen_Private::EPropertyClass::Object, "OtherComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(AICharacter_eventOnBoxOverlap_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_OtherComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_OtherComp_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(AICharacter_eventOnBoxOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_HitComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_HitComp = { UE4CodeGen_Private::EPropertyClass::Object, "HitComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(AICharacter_eventOnBoxOverlap_Parms, HitComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_HitComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_HitComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_SweepResult,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_bFromSweep,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_OtherIndex,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_OtherComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::NewProp_HitComp,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAICharacter_OnBoxOverlap_Statics::Function_MetaDataParams[] = {
@@ -177,6 +202,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAICharacter_Talk_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "AICharacter.h" },
+		{ "ToolTip", "void OnBoxEndOverlap(AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherIndex);" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAICharacter_Talk_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAICharacter, "Talk", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, sizeof(AICharacter_eventTalk_Parms), Z_Construct_UFunction_AAICharacter_Talk_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AAICharacter_Talk_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAICharacter_Talk_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAICharacter_Talk_Statics::Function_MetaDataParams)) };
@@ -201,9 +227,9 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AILInes_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AILines_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AILInes;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AILines;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerLines_MetaData[];
 #endif
@@ -221,9 +247,9 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GranadeLauncherTest,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAICharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap, "OnBoxEndOverlap" }, // 2735017899
-		{ &Z_Construct_UFunction_AAICharacter_OnBoxOverlap, "OnBoxOverlap" }, // 3096473045
-		{ &Z_Construct_UFunction_AAICharacter_Talk, "Talk" }, // 951814199
+		{ &Z_Construct_UFunction_AAICharacter_OnBoxEndOverlap, "OnBoxEndOverlap" }, // 1528891129
+		{ &Z_Construct_UFunction_AAICharacter_OnBoxOverlap, "OnBoxOverlap" }, // 3301876779
+		{ &Z_Construct_UFunction_AAICharacter_Talk, "Talk" }, // 3914468906
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICharacter_Statics::Class_MetaDataParams[] = {
@@ -233,12 +259,12 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICharacter_Statics::NewProp_AILInes_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICharacter_Statics::NewProp_AILines_MetaData[] = {
 		{ "Category", "DialogSystem" },
 		{ "ModuleRelativePath", "AICharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICharacter_Statics::NewProp_AILInes = { UE4CodeGen_Private::EPropertyClass::Object, "AILInes", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(AAICharacter, AILInes), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICharacter_Statics::NewProp_AILInes_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAICharacter_Statics::NewProp_AILInes_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICharacter_Statics::NewProp_AILines = { UE4CodeGen_Private::EPropertyClass::Object, "AILines", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(AAICharacter, AILines), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICharacter_Statics::NewProp_AILines_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAICharacter_Statics::NewProp_AILines_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICharacter_Statics::NewProp_PlayerLines_MetaData[] = {
 		{ "Category", "DialogSystem" },
@@ -255,7 +281,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICharacter_Statics::NewProp_BoxComp = { UE4CodeGen_Private::EPropertyClass::Object, "BoxComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a0009, 1, nullptr, STRUCT_OFFSET(AAICharacter, BoxComp), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICharacter_Statics::NewProp_BoxComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAICharacter_Statics::NewProp_BoxComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAICharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICharacter_Statics::NewProp_AILInes,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICharacter_Statics::NewProp_AILines,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICharacter_Statics::NewProp_PlayerLines,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICharacter_Statics::NewProp_BoxComp,
 	};
@@ -282,7 +308,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAICharacter, 1282907839);
+	IMPLEMENT_CLASS(AAICharacter, 123160828);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAICharacter(Z_Construct_UClass_AAICharacter, &AAICharacter::StaticClass, TEXT("/Script/GranadeLauncherTest"), TEXT("AAICharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAICharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
