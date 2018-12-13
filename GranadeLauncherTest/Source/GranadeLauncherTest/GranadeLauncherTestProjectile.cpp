@@ -44,7 +44,10 @@ void AGranadeLauncherTestProjectile::OnHit(UPrimitiveComponent* HitComp, AActor*
 	// Only add impulse and destroy projectile if we hit a physics
 	if ((OtherActor != NULL) && (OtherActor != this))// && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
 	{
-		OnDetonate();
+		
+			OnDetonate();
+	
+		
 	}
 
 }
@@ -55,6 +58,8 @@ void AGranadeLauncherTestProjectile::BeginPlay()
 	FTimerHandle handle;
 	GetWorld()->GetTimerManager().SetTimer(handle, this, &AGranadeLauncherTestProjectile::OnDetonate, 5.f, false); // true would make it explode multiple times
 }
+
+
 
 void AGranadeLauncherTestProjectile::OnDetonate()
 {

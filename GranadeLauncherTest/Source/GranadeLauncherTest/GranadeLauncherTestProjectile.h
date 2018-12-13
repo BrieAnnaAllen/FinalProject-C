@@ -30,8 +30,11 @@ class AGranadeLauncherTestProjectile : public AActor
 
 public:
 	AGranadeLauncherTestProjectile();
+	
 
 	virtual void BeginPlay() override;
+
+	//void &Switch(bool SwitchGun) { IsLauncher = Switch; }
 
 	UFUNCTION()
 		void OnDetonate(); // makes grenade explode

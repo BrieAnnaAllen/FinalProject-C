@@ -47,6 +47,7 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestProjectile() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGranadeLauncherTestProjectile_OnDetonate_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "GranadeLauncherTestProjectile.h" },
+		{ "ToolTip", "void &Switch(bool SwitchGun) { IsLauncher = Switch; }" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGranadeLauncherTestProjectile_OnDetonate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGranadeLauncherTestProjectile, "OnDetonate", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGranadeLauncherTestProjectile_OnDetonate_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGranadeLauncherTestProjectile_OnDetonate_Statics::Function_MetaDataParams)) };
@@ -172,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestProjectile() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GranadeLauncherTest,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGranadeLauncherTestProjectile_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AGranadeLauncherTestProjectile_OnDetonate, "OnDetonate" }, // 2501259418
+		{ &Z_Construct_UFunction_AGranadeLauncherTestProjectile_OnDetonate, "OnDetonate" }, // 1911665918
 		{ &Z_Construct_UFunction_AGranadeLauncherTestProjectile_OnHit, "OnHit" }, // 3253892419
 	};
 #if WITH_METADATA
@@ -252,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodeGranadeLauncherTestProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGranadeLauncherTestProjectile, 3249837410);
+	IMPLEMENT_CLASS(AGranadeLauncherTestProjectile, 2837353338);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGranadeLauncherTestProjectile(Z_Construct_UClass_AGranadeLauncherTestProjectile, &AGranadeLauncherTestProjectile::StaticClass, TEXT("/Script/GranadeLauncherTest"), TEXT("AGranadeLauncherTestProjectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGranadeLauncherTestProjectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

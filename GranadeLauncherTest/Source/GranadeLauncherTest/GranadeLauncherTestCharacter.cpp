@@ -178,6 +178,7 @@ void AGranadeLauncherTestCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Talk", IE_Pressed, this, &AGranadeLauncherTestCharacter::ToggleTalking);
+	//PlayerInputComponent->BindAction("Switch", IE_Pressed, this, &AGranadeLauncherTestCharacter::SwitchGun);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AGranadeLauncherTestCharacter::OnFire);
@@ -347,6 +348,8 @@ void AGranadeLauncherTestCharacter::MoveRight(float Value)
 		AddMovementInput(GetActorRightVector(), Value);
 	}
 }
+
+
 
 void AGranadeLauncherTestCharacter::TurnAtRate(float Rate)
 {
