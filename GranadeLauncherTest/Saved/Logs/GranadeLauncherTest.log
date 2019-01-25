@@ -1,4 +1,4 @@
-﻿Log file open, 12/13/18 09:20:37
+﻿Log file open, 12/13/18 15:49:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GranadeLauncherTest
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.314872
+LogStats: Stats thread started at 0.417571
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -92,7 +92,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.314s to configure plugins.
+LogStreaming: Display: Took  0.458s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -146,1028 +146,395 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.057s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.12.13-15.20.37:707][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.13-15.20.37:707][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.12.13-15.20.37:818][  0]LogHAL: Display: Platform has ~ 16 GB [17059753984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.12.13-15.20.37:818][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.12.13-15.20.37:818][  0]LogInit: Going up to parent DeviceProfile []
-[2018.12.13-15.20.37:819][  0]LogInit: Computer: BRIEANNA-CHEEBS
-[2018.12.13-15.20.37:819][  0]LogInit: User: BrieAnna
-[2018.12.13-15.20.37:819][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.12.13-15.20.37:819][  0]LogInit: High frequency timer resolution =2.537601 MHz
-[2018.12.13-15.20.37:820][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.12.13-15.20.37:820][  0]LogMemory: Platform Memory Stats for Windows
-[2018.12.13-15.20.37:820][  0]LogMemory: Process Physical Memory: 101.46 MB used, 101.46 MB peak
-[2018.12.13-15.20.37:820][  0]LogMemory: Process Virtual Memory: 89.48 MB used, 89.48 MB peak
-[2018.12.13-15.20.37:820][  0]LogMemory: Physical Memory: 10313.00 MB used,  5956.45 MB free, 16269.45 MB total
-[2018.12.13-15.20.37:820][  0]LogMemory: Virtual Memory: 4643.65 MB used,  5956.45 MB free, 134217728.00 MB total
-[2018.12.13-15.20.38:127][  0]LogInit: Using OS detected language (en-US).
-[2018.12.13-15.20.38:127][  0]LogInit: Using OS detected locale (en-US).
-[2018.12.13-15.20.38:129][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.12.13-15.20.38:815][  0]LogStreaming: Display: Took  0.688s to InitEngineTextLocalization.
-[2018.12.13-15.20.38:886][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.12.13-15.20.38:886][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.12.13-15.20.40:822][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.12.13-15.20.40:822][  0]LogD3D11RHI: D3D11 adapters:
-[2018.12.13-15.20.40:900][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2018.12.13-15.20.40:900][  0]LogD3D11RHI:       3040/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.12.13-15.20.40:908][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.12.13-15.20.40:908][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.12.13-15.20.40:912][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.12.13-15.20.40:912][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.12.13-15.20.40:912][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.12.13-15.20.40:951][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.12.13-15.20.40:951][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2018.12.13-15.20.40:951][  0]LogWindows: EnumDisplayDevices:
-[2018.12.13-15.20.40:951][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.12.13-15.20.40:951][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.12.13-15.20.40:952][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.12.13-15.20.40:952][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.12.13-15.20.40:952][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2018.12.13-15.20.40:952][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.12.13-15.20.40:952][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.12.13-15.20.40:952][  0]LogRHI: Texture pool is 2128 MB (70% of 3040 MB)
-[2018.12.13-15.20.40:993][  0]LogD3D11RHI: Async texture creation enabled
-[2018.12.13-15.20.41:005][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.12.13-15.20.41:006][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Intermediate/Shaders/WorkingDirectory/19932/).
-[2018.12.13-15.20.41:006][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BrieAnna/AppData/Local/Temp/UnrealShaderWorkingDir/B8016ECA4A39C5B8BABDC4BBADC4603C/'.
-[2018.12.13-15.20.42:010][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.12.13-15.20.42:027][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.12.13-15.20.42:044][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.12.13-15.20.42:062][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.12.13-15.20.42:118][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.12.13-15.20.42:133][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.12.13-15.20.42:149][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.12.13-15.20.42:165][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.12.13-15.20.42:174][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:288][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.13-15.20.42:290][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.12.13-15.20.42:367][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.13-15.20.42:367][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.13-15.20.42:393][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.13-15.20.42:393][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.13-15.20.42:408][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.12.13-15.20.42:422][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.12.13-15.20.42:436][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.12.13-15.20.42:454][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.12.13-15.20.42:465][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.12.13-15.20.42:465][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.12.13-15.20.42:601][  0]LogXGEController: Cleaning working directory: C:/Users/BrieAnna/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.12.13-15.20.42:601][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.12.13-15.20.42:601][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.12.13-15.20.42:601][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.12.13-15.20.44:208][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.12.13-15.20.45:252][  0]LogDerivedDataCache: Loaded boot cache 1.04s 74MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.13-15.20.45:256][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.12.13-15.20.45:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.12.13-15.20.45:256][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.12.13-15.20.45:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.13-15.20.45:256][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.12.13-15.20.45:335][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.12.13-15.20.45:350][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BrieAnna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.12.13-15.20.45:350][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.12.13-15.20.45:350][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.12.13-15.20.45:388][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.12.13-15.20.45:390][  0]LogSlate: Using FreeType 2.6.0
-[2018.12.13-15.20.45:392][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.13-15.20.45:496][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
-[2018.12.13-15.20.45:854][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.13-15.20.46:013][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.12.13-15.20.46:020][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.12.13-15.20.46:020][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.12.13-15.20.46:020][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.12.13-15.20.46:020][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.12.13-15.20.46:035][  0]LogNetVersion: GranadeLauncherTest 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1746410404)
-[2018.12.13-15.20.46:740][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.243458 seconds
-[2018.12.13-15.20.46:747][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.12.13-15.20.46:747][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.12.13-15.20.46:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.12.13-15.21.08:252][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.12.13-15.21.08:265][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.12.13-15.21.08:830][  0]SourceControl: Source control is disabled
-[2018.12.13-15.21.08:830][  0]SourceControl: Source control is disabled
-[2018.12.13-15.21.08:832][  0]SourceControl: Source control is disabled
-[2018.12.13-15.21.08:834][  0]SourceControl: Source control is disabled
-[2018.12.13-15.21.09:197][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.12.13-15.21.09:291][  0]LogOcInput: OculusInput pre-init called
-[2018.12.13-15.21.09:440][  0]LogEngine: Initializing Engine...
-[2018.12.13-15.21.09:441][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.12.13-15.21.09:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.13-15.21.09:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.13-15.21.09:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.13-15.21.09:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.13-15.21.09:687][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.12.13-15.21.09:706][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.12.13-15.21.09:728][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.13-15.21.09:768][  0]LogInit: FAudioDevice initialized.
-[2018.12.13-15.21.09:769][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.12.13-15.21.09:943][  0]LogDerivedDataCache: Saved boot cache 0.17s 74MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.13-15.21.09:961][  0]LogInit: Texture streaming: Enabled
-[2018.12.13-15.21.09:995][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.12.13-15.21.09:995][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={B1E49AF0-4F60-EA75-0B49-83A122B06244}
-[2018.12.13-15.21.10:021][  0]LogInit: Transaction tracking system initialized
-[2018.12.13-15.21.10:064][  0]BlueprintLog: New page: Editor Load
-[2018.12.13-15.21.10:238][  0]LocalizationService: Localization service is disabled
-[2018.12.13-15.21.10:769][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.12.13-15.21.10:769][  0]LogCook: Display: Mobile HDR setting 1
-[2018.12.13-15.21.10:769][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.12.13-15.21.10:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.13-15.21.10:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.13-15.21.10:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.13-15.21.10:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.13-15.21.11:364][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/' took 0.02s
-[2018.12.13-15.21.11:364][  0]SourceControl: Source control is disabled
-[2018.12.13-15.21.11:503][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.13-15.21.11:506][  0]LogSlate: Took 0.000484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.12.13-15.21.23:991][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2018.12.13-15.21.23:992][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.13-15.21.23:996][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.13-15.21.26:126][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
-[2018.12.13-15.21.26:126][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.13-15.21.26:130][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.13-15.21.26:171][  0]Cmd: MAP LOAD FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.13-15.21.26:172][  0]LightingResults: New page: Lighting Build
-[2018.12.13-15.21.26:178][  0]MapCheck: New page: Map Check
-[2018.12.13-15.21.26:178][  0]LightingResults: New page: Lighting Build
-[2018.12.13-15.21.26:603][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.12.13-15.21.26:625][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.13-15.21.26:671][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.13-15.21.26:822][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.116ms to complete.
-[2018.12.13-15.21.26:822][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.652
-[2018.12.13-15.21.26:923][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.21.26:931][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.21.26:939][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.21.26:947][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.21.26:957][  0]LogCollectionManager: Loaded 0 collections in 0.002733 seconds
-[2018.12.13-15.21.27:011][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Collections/' took 0.01s
-[2018.12.13-15.21.27:011][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/Developers/BrieAnna/Collections/' took 0.01s
-[2018.12.13-15.21.27:012][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/Collections/' took 0.01s
-[2018.12.13-15.21.27:012][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.12.13-15.21.27:041][  0]LogContentBrowser: Native class hierarchy populated in 0.0286 seconds. Added 2587 classes and 610 folders.
-[2018.12.13-15.21.27:063][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2018.12.13-15.21.27:787][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0032 seconds. Added 0 classes and 0 folders.
-[2018.12.13-15.21.27:813][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2018.12.13-15.21.27:844][  0]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.12.13-15.21.27:883][  0]LogSlate: Took 0.034739 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.12.13-15.21.27:961][  0]LogRenderer: Reallocating scene render targets to support 900x436 Format 10 NumSamples 1 (Frame:1).
-[2018.12.13-15.21.28:132][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.12.13-15.21.28:132][  0]LogLoad: (Engine Initialization) Total time: 54.06 seconds
-[2018.12.13-15.21.28:132][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.12.13-15.21.28:175][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.12.13-15.21.28:276][  0]LogSlate: Took 0.062141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.13-15.21.28:342][  1]LogAssetRegistry: Asset discovery search completed in 42.8698 seconds
-[2018.12.13-15.21.28:345][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.12.13-15.21.28:345][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
-[2018.12.13-15.22.40:330][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.22.40:485][544]LogSlate: Took 0.001047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.13-15.22.40:501][544]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPMyGranadeLauncherTestCharacter.BPMyGranadeLauncherTestCharacter
-[2018.12.13-15.22.41:317][544]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
-[2018.12.13-15.22.42:615][544]LogSlate: Took 0.015326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.12.13-15.22.42:760][545]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.12.13-15.23.27:362][153]LogSlate: Window 'BPMyGranadeLauncherTestCharacter' being destroyed
-[2018.12.13-15.23.27:368][153]LogSlate: Window 'BPMyGranadeLauncherTestCharacter' being destroyed
-[2018.12.13-15.23.29:532][277]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPAICharacter2.BPAICharacter2
-[2018.12.13-15.23.36:405][626]LogSlate: Window 'Event Graph' being destroyed
-[2018.12.13-15.23.36:410][626]LogSlate: Window 'Event Graph' being destroyed
-[2018.12.13-15.23.36:411][626]LogSlate: Window 'BPAICharacter2' being destroyed
-[2018.12.13-15.23.36:416][626]LogSlate: Window 'BPAICharacter2' being destroyed
-[2018.12.13-15.23.38:141][720]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget
-[2018.12.13-15.23.53:213][579]LogSlate: Window 'BPDialogUIWidget' being destroyed
-[2018.12.13-15.23.53:219][579]LogSlate: Window 'BPDialogUIWidget' being destroyed
-[2018.12.13-15.23.59:716][886]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.12.13-15.23.59:839][888]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GranadeLauncherTest
-[2018.12.13-15.23.59:839][888]LogTemp: CWD: D:\Unreal\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.12.13-15.23.59:839][888]LogTemp: Initial Dir: D:\Unreal\UE_4.20
-[2018.12.13-15.23.59:839][888]LogTemp: Env CWD: D:\Unreal\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.12.13-15.23.59:843][888]LogTemp: BranchPath = BRIEANNA-CHEEBS/D/Unreal/UE_4.20/Engine/Binaries --- GameBranchPath = BRIEANNA-CHEEBS/D/Unreal/UE_4.20/Engine/Binaries
-[2018.12.13-15.23.59:871][889]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\BrieAnna\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.12.13-15.24.54:891][243]Candidate modules for hot reload:
-[2018.12.13-15.24.54:891][243]  GranadeLauncherTest
-[2018.12.13-15.24.54:891][243]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,4397 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.24.55:755][243]Warning: Starting HotReload took  0.9s.
-[2018.12.13-15.25.11:566][192]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:25:11 AM
-[2018.12.13-15.25.11:566][192]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.25.11:566][192]CompilerResultsLog: Creating makefile for hot reloading GranadeLauncherTestEditor (ini files are newer than UBTMakefile)
-[2018.12.13-15.25.11:566][192]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.25.11:566][192]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (D:\VS2017\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2018.12.13-15.25.11:566][192]CompilerResultsLog: Building 3 actions with 8 processes...
-[2018.12.13-15.25.11:566][192]CompilerResultsLog:   [1/3] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.25.11:566][192]CompilerResultsLog:   [2/3] UE4Editor-GranadeLauncherTest-4397.lib
-[2018.12.13-15.25.11:567][192]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-4397.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-4397.exp
-[2018.12.13-15.25.11:567][192]CompilerResultsLog:   [3/3] UE4Editor-GranadeLauncherTest-4397.dll
-[2018.12.13-15.25.11:567][192]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-4397.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-4397.suppressed.exp
-[2018.12.13-15.25.11:567][192]CompilerResultsLog: Total build time: 15.35 seconds (Parallel executor: 4.83 seconds)
-[2018.12.13-15.25.11:567][192]LogMainFrame: MainFrame: Module compiling took 16.682 seconds
-[2018.12.13-15.25.11:627][192]LogClass: DialogStruct HotReload.
-[2018.12.13-15.25.11:627][192]LogClass: SubtitleStruct HotReload.
-[2018.12.13-15.25.11:636][192]LogContentBrowser: Native class hierarchy updated for 'GranadeLauncherTest' in 0.0009 seconds. Added 6 classes and 2 folders.
-[2018.12.13-15.25.11:640][192]Display: HotReload successful (7 functions remapped  2 scriptstructs remapped)
-[2018.12.13-15.25.12:160][192]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2588 classes and 612 folders.
-[2018.12.13-15.25.12:160][192]Display: HotReload took 17.3s.
-[2018.12.13-15.25.15:310][378]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.13-15.25.15:334][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.25.15:335][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.13-15.25.15:347][378]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 3:25:15 AM)
-[2018.12.13-15.25.15:347][378]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.12.13-15.25.15:380][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032404s)
-[2018.12.13-15.25.15:381][378]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.12.13-15.25.15:381][378]LogPlayLevel: PIE: World Init took: (0.001110s)
-[2018.12.13-15.25.15:381][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.033732s)
-[2018.12.13-15.25.15:460][378]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.13-15.25.15:470][378]LogInit: FAudioDevice initialized.
-[2018.12.13-15.25.15:514][378]LogLoad: Game class is 'GranadeLauncherTestGameMode'
-[2018.12.13-15.25.15:517][378]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-09.25.15
-[2018.12.13-15.25.15:517][378]LogWorld: Bringing up level for play took: 0.002826
-[2018.12.13-15.25.15:597][378]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
-[2018.12.13-15.25.15:598][378]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.25.15:598][378]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.25.15:599][378]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.433
-[2018.12.13-15.25.15:599][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.25.26:253][ 10]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.25.26:254][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.25.26:295][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.13-15.25.26:295][ 10]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.25.26:337][ 10]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(None)
-[2018.12.13-15.25.26:337][ 10]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(None)
-[2018.12.13-15.25.26:340][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.25.26:398][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.12.13-15.32.26:159][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.32.26:189][515]Candidate modules for hot reload:
-[2018.12.13-15.32.26:189][515]  GranadeLauncherTest
-[2018.12.13-15.32.26:189][515]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,1260 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.32.26:932][515]Warning: Starting HotReload took  0.8s.
-[2018.12.13-15.32.55:971][254]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:32:55 AM
-[2018.12.13-15.32.55:971][254]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.32.55:971][254]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.32.55:971][254]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
-[2018.12.13-15.32.55:971][254]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.13-15.32.55:972][254]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 13.3014224 seconds
-[2018.12.13-15.32.55:972][254]CompilerResultsLog: Building 10 actions with 8 processes...
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   [1/10] GranadeLauncherTestProjectile.gen.cpp
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest/GranadeLauncherTestProjectile.h(38) : error C2143: syntax error: missing ';' before '}'
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   [2/10] CD.cpp
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   [3/10] GranadeLauncherTestGameMode.cpp
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   [4/10] AICharacter.gen.cpp
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   [5/10] GranadeLauncherTestCharacter.gen.cpp
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   [6/10] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C2143: syntax error: missing ';' before '}'
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTestProjectile.cpp(71) : error C2511: 'void AGranadeLauncherTestProjectile::Switch(void)': overloaded member function not found in 'AGranadeLauncherTestProjectile'
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(10): note: see declaration of 'AGranadeLauncherTestProjectile'
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTestProjectile.cpp(72) : error C2597: illegal reference to non-static member 'AGranadeLauncherTestProjectile::IsLauncher'
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   [7/10] AICharacter.cpp
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\AICharacter.cpp(11): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   D:\Unreal\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: see declaration of 'USceneComponent::AttachTo'
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:   [8/10] GranadeLauncherTestCharacter.cpp
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C2143: syntax error: missing ';' before '}'
-[2018.12.13-15.32.55:972][254]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-1260.dll
-[2018.12.13-15.32.55:972][254]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.12.13-15.32.55:972][254]CompilerResultsLog: Total build time: 28.64 seconds (Parallel executor: 0.00 seconds)
-[2018.12.13-15.32.55:972][254]LogMainFrame: MainFrame: Module compiling took 29.789 seconds
-[2018.12.13-15.32.55:972][254]Warning: HotReload failed, recompile failed
-[2018.12.13-15.33.12:628][790]Candidate modules for hot reload:
-[2018.12.13-15.33.12:628][790]  GranadeLauncherTest
-[2018.12.13-15.33.12:628][790]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,217 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.33.13:519][790]Warning: Starting HotReload took  0.9s.
-[2018.12.13-15.33.40:004][377]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:33:40 AM
-[2018.12.13-15.33.40:004][377]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.33.40:004][377]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.33.40:004][377]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.13-15.33.40:004][377]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 14.8404879 seconds
-[2018.12.13-15.33.40:004][377]CompilerResultsLog: Building 5 actions with 8 processes...
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:   [1/5] GranadeLauncherTestProjectile.gen.cpp
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:   [2/5] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTestProjectile.cpp(71) : error C2511: 'void AGranadeLauncherTestProjectile::Switch(void)': overloaded member function not found in 'AGranadeLauncherTestProjectile'
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:   d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(10): note: see declaration of 'AGranadeLauncherTestProjectile'
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTestProjectile.cpp(72) : error C2597: illegal reference to non-static member 'AGranadeLauncherTestProjectile::IsLauncher'
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:   [3/5] GranadeLauncherTestCharacter.cpp
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\granadelaunchertestcharacter.cpp(355)  : error C4700: uninitialized local variable 'projectile' used
-[2018.12.13-15.33.40:004][377]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-217.dll
-[2018.12.13-15.33.40:004][377]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.12.13-15.33.40:005][377]CompilerResultsLog: Total build time: 26.09 seconds (Parallel executor: 0.00 seconds)
-[2018.12.13-15.33.40:005][377]LogMainFrame: MainFrame: Module compiling took 27.384 seconds
-[2018.12.13-15.33.40:005][377]Warning: HotReload failed, recompile failed
-[2018.12.13-15.33.47:564][821]LogVSAccessor: Warning: Couldn't goto line number '71' in 'D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTestProjectile.cpp'
-[2018.12.13-15.34.21:296][685]Candidate modules for hot reload:
-[2018.12.13-15.34.21:296][685]  GranadeLauncherTest
-[2018.12.13-15.34.21:296][685]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,1969 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.34.21:864][685]Warning: Starting HotReload took  0.6s.
-[2018.12.13-15.34.30:348][195]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:34:30 AM
-[2018.12.13-15.34.30:348][195]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.34.30:348][195]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.34.30:348][195]CompilerResultsLog: Building 4 actions with 8 processes...
-[2018.12.13-15.34.30:348][195]CompilerResultsLog:   [1/4] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.34.30:348][195]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTestProjectile.cpp(71) : error C2511: 'void AGranadeLauncherTestProjectile::Switch(void)': overloaded member function not found in 'AGranadeLauncherTestProjectile'
-[2018.12.13-15.34.30:348][195]CompilerResultsLog:   d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(10): note: see declaration of 'AGranadeLauncherTestProjectile'
-[2018.12.13-15.34.30:348][195]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTestProjectile.cpp(72) : error C2597: illegal reference to non-static member 'AGranadeLauncherTestProjectile::IsLauncher'
-[2018.12.13-15.34.30:348][195]CompilerResultsLog:   [2/4] GranadeLauncherTestCharacter.cpp
-[2018.12.13-15.34.30:348][195]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest\GranadeLauncherTestCharacter.cpp(355) : error C2660: 'AGranadeLauncherTestProjectile::Switch': function does not take 0 arguments
-[2018.12.13-15.34.30:348][195]CompilerResultsLog:   d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38): note: see declaration of 'AGranadeLauncherTestProjectile::Switch'
-[2018.12.13-15.34.30:348][195]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-1969.dll
-[2018.12.13-15.34.30:348][195]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.12.13-15.34.30:349][195]CompilerResultsLog: Total build time: 8.07 seconds (Parallel executor: 0.00 seconds)
-[2018.12.13-15.34.30:349][195]LogMainFrame: MainFrame: Module compiling took 9.058 seconds
-[2018.12.13-15.34.30:349][195]Warning: HotReload failed, recompile failed
-[2018.12.13-15.36.25:890][913]Candidate modules for hot reload:
-[2018.12.13-15.36.25:890][913]  GranadeLauncherTest
-[2018.12.13-15.36.25:890][913]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,3582 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.36.26:556][913]Warning: Starting HotReload took  0.7s.
-[2018.12.13-15.36.49:793][308]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:36:49 AM
-[2018.12.13-15.36.49:794][308]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.36.49:794][308]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.36.49:794][308]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
-[2018.12.13-15.36.49:794][308]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.13-15.36.49:794][308]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 13.3908561 seconds
-[2018.12.13-15.36.49:794][308]CompilerResultsLog: Building 5 actions with 8 processes...
-[2018.12.13-15.36.49:794][308]CompilerResultsLog:   [1/5] GranadeLauncherTestProjectile.gen.cpp
-[2018.12.13-15.36.49:794][308]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest/GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.36.49:794][308]CompilerResultsLog:   [2/5] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.36.49:794][308]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.36.49:794][308]CompilerResultsLog:   [3/5] GranadeLauncherTestCharacter.cpp
-[2018.12.13-15.36.49:794][308]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.36.49:794][308]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-3582.dll
-[2018.12.13-15.36.49:794][308]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.12.13-15.36.49:794][308]CompilerResultsLog: Total build time: 22.87 seconds (Parallel executor: 0.00 seconds)
-[2018.12.13-15.36.49:794][308]LogMainFrame: MainFrame: Module compiling took 23.909 seconds
-[2018.12.13-15.36.49:794][308]Warning: HotReload failed, recompile failed
-[2018.12.13-15.40.55:295][892]Candidate modules for hot reload:
-[2018.12.13-15.40.55:295][892]  GranadeLauncherTest
-[2018.12.13-15.40.55:295][892]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,331 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.40.56:003][892]Warning: Starting HotReload took  0.7s.
-[2018.12.13-15.41.18:870][265]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:41:18 AM
-[2018.12.13-15.41.18:870][265]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.41.18:871][265]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.41.18:871][265]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
-[2018.12.13-15.41.18:871][265]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.13-15.41.18:871][265]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 14.2077347 seconds
-[2018.12.13-15.41.18:871][265]CompilerResultsLog: Building 5 actions with 8 processes...
-[2018.12.13-15.41.18:871][265]CompilerResultsLog:   [1/5] GranadeLauncherTestProjectile.gen.cpp
-[2018.12.13-15.41.18:871][265]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest/GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.41.18:871][265]CompilerResultsLog:   [2/5] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.41.18:871][265]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.41.18:871][265]CompilerResultsLog:   [3/5] GranadeLauncherTestCharacter.cpp
-[2018.12.13-15.41.18:871][265]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.41.18:871][265]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-331.dll
-[2018.12.13-15.41.18:871][265]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.12.13-15.41.18:871][265]CompilerResultsLog: Total build time: 22.48 seconds (Parallel executor: 0.00 seconds)
-[2018.12.13-15.41.18:871][265]LogMainFrame: MainFrame: Module compiling took 23.580 seconds
-[2018.12.13-15.41.18:871][265]Warning: HotReload failed, recompile failed
-[2018.12.13-15.41.49:911][995]Candidate modules for hot reload:
-[2018.12.13-15.41.49:911][995]  GranadeLauncherTest
-[2018.12.13-15.41.49:911][995]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,9764 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.41.50:507][995]Warning: Starting HotReload took  0.6s.
-[2018.12.13-15.42.16:129][530]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:42:16 AM
-[2018.12.13-15.42.16:129][530]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.42.16:129][530]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.42.16:129][530]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
-[2018.12.13-15.42.16:129][530]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.13-15.42.16:129][530]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 14.8773455 seconds
-[2018.12.13-15.42.16:129][530]CompilerResultsLog: Building 5 actions with 8 processes...
-[2018.12.13-15.42.16:129][530]CompilerResultsLog:   [1/5] GranadeLauncherTestProjectile.gen.cpp
-[2018.12.13-15.42.16:129][530]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest/GranadeLauncherTestProjectile.h(38) : error C2182: 'Switch': illegal use of type 'void'
-[2018.12.13-15.42.16:130][530]CompilerResultsLog:    D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Source\GranadeLauncherTest/GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.42.16:130][530]CompilerResultsLog:   [2/5] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.42.16:130][530]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C2182: 'Switch': illegal use of type 'void'
-[2018.12.13-15.42.16:130][530]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.42.16:130][530]CompilerResultsLog:   [3/5] GranadeLauncherTestCharacter.cpp
-[2018.12.13-15.42.16:130][530]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C2182: 'Switch': illegal use of type 'void'
-[2018.12.13-15.42.16:130][530]CompilerResultsLog:    d:\users\brieanna\documents\github\finalproject-c\granadelaunchertest\source\granadelaunchertest\GranadeLauncherTestProjectile.h(38) : error C3867: 'AGranadeLauncherTestProjectile::Switch': non-standard syntax; use '&' to create a pointer to member
-[2018.12.13-15.42.16:130][530]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Binaries\Win64\UE4Editor-GranadeLauncherTest-9764.dll
-[2018.12.13-15.42.16:130][530]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.12.13-15.42.16:130][530]CompilerResultsLog: Total build time: 25.18 seconds (Parallel executor: 0.00 seconds)
-[2018.12.13-15.42.16:130][530]LogMainFrame: MainFrame: Module compiling took 26.224 seconds
-[2018.12.13-15.42.16:130][530]Warning: HotReload failed, recompile failed
-[2018.12.13-15.42.50:187][386]Candidate modules for hot reload:
-[2018.12.13-15.42.50:187][386]  GranadeLauncherTest
-[2018.12.13-15.42.50:187][386]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,1626 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.42.50:769][386]Warning: Starting HotReload took  0.6s.
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:43:18 AM
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 14.1087688 seconds
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog: Building 6 actions with 8 processes...
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:   [1/6] GranadeLauncherTest.init.gen.cpp
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:   [2/6] GranadeLauncherTestProjectile.gen.cpp
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:   [3/6] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:   [4/6] GranadeLauncherTestCharacter.cpp
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:   [5/6] UE4Editor-GranadeLauncherTest-1626.lib
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-1626.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-1626.exp
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:   [6/6] UE4Editor-GranadeLauncherTest-1626.dll
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-1626.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-1626.suppressed.exp
-[2018.12.13-15.43.18:728][ 64]CompilerResultsLog: Total build time: 27.53 seconds (Parallel executor: 8.90 seconds)
-[2018.12.13-15.43.18:728][ 64]LogMainFrame: MainFrame: Module compiling took 28.546 seconds
-[2018.12.13-15.43.18:765][ 64]LogClass: Could not find existing class AICharacter in package /Script/GranadeLauncherTest for HotReload, assuming new class
-[2018.12.13-15.43.18:767][ 64]LogClass: Function OnBoxEndOverlap is new.
-[2018.12.13-15.43.18:767][ 64]LogClass: Function OnBoxOverlap is new.
-[2018.12.13-15.43.18:767][ 64]LogClass: Function Talk is new.
-[2018.12.13-15.43.18:774][ 64]LogClass: Could not find existing class GranadeLauncherTestProjectile in package /Script/GranadeLauncherTest for HotReload, assuming new class
-[2018.12.13-15.43.18:774][ 64]LogClass: Function OnDetonate is new.
-[2018.12.13-15.43.18:774][ 64]LogClass: Function OnHit is new.
-[2018.12.13-15.43.18:774][ 64]LogClass: DialogStruct HotReload.
-[2018.12.13-15.43.18:774][ 64]LogClass: SubtitleStruct HotReload.
-[2018.12.13-15.43.18:791][ 64]LogHotReload: Re-instancing AICharacter after hot-reload.
-[2018.12.13-15.43.19:049][ 64]LogHotReload: Re-instancing GranadeLauncherTestProjectile after hot-reload.
-[2018.12.13-15.43.19:168][ 64]LogContentBrowser: Native class hierarchy updated for 'GranadeLauncherTest' in 0.0013 seconds. Added 6 classes and 2 folders.
-[2018.12.13-15.43.19:172][ 64]Display: HotReload successful (2 functions remapped  2 scriptstructs remapped)
-[2018.12.13-15.43.19:536][ 64]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2588 classes and 612 folders.
-[2018.12.13-15.43.19:536][ 64]Display: HotReload took 29.4s.
-[2018.12.13-15.43.24:876][381]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.13-15.43.24:894][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.43.24:894][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.13-15.43.24:894][381]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 3:43:24 AM)
-[2018.12.13-15.43.24:894][381]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.12.13-15.43.24:910][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015712s)
-[2018.12.13-15.43.24:911][381]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.12.13-15.43.24:911][381]LogPlayLevel: PIE: World Init took: (0.001165s)
-[2018.12.13-15.43.24:912][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017065s)
-[2018.12.13-15.43.24:990][381]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.13-15.43.25:002][381]LogInit: FAudioDevice initialized.
-[2018.12.13-15.43.25:035][381]LogLoad: Game class is 'GranadeLauncherTestGameMode'
-[2018.12.13-15.43.25:038][381]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-09.43.25
-[2018.12.13-15.43.25:038][381]LogWorld: Bringing up level for play took: 0.002528
-[2018.12.13-15.43.25:051][381]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.43.25:051][381]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.43.25:052][381]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.114
-[2018.12.13-15.43.25:052][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.43.35:613][ 11]LogScript: Warning: Attempted to access index 0 from array Questions of length 0!
+[2018.12.13-21.49.09:510][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.13-21.49.09:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.13-21.49.09:590][  0]LogHAL: Display: Platform has ~ 16 GB [17059753984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.13-21.49.09:625][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.13-21.49.09:635][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.13-21.49.09:667][  0]LogInit: Computer: BRIEANNA-CHEEBS
+[2018.12.13-21.49.09:667][  0]LogInit: User: BrieAnna
+[2018.12.13-21.49.09:667][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.13-21.49.09:667][  0]LogInit: High frequency timer resolution =2.537597 MHz
+[2018.12.13-21.49.09:668][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.13-21.49.09:668][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.13-21.49.09:668][  0]LogMemory: Process Physical Memory: 101.49 MB used, 101.49 MB peak
+[2018.12.13-21.49.09:668][  0]LogMemory: Process Virtual Memory: 93.07 MB used, 93.07 MB peak
+[2018.12.13-21.49.09:668][  0]LogMemory: Physical Memory: 6382.65 MB used,  9886.80 MB free, 16269.45 MB total
+[2018.12.13-21.49.09:668][  0]LogMemory: Virtual Memory: 4647.59 MB used,  9886.80 MB free, 134217728.00 MB total
+[2018.12.13-21.49.10:630][  0]LogInit: Using OS detected language (en-US).
+[2018.12.13-21.49.10:631][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.13-21.49.10:762][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.13-21.49.11:543][  0]LogStreaming: Display: Took  0.914s to InitEngineTextLocalization.
+[2018.12.13-21.49.12:219][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.13-21.49.12:219][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.13-21.49.13:635][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.13-21.49.13:635][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.13-21.49.13:713][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2018.12.13-21.49.13:713][  0]LogD3D11RHI:       3040/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.13-21.49.13:748][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.12.13-21.49.13:748][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.13-21.49.13:751][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.13-21.49.13:751][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.13-21.49.13:751][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.13-21.49.13:805][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.13-21.49.13:805][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.13-21.49.13:823][  0]LogWindows: EnumDisplayDevices:
+[2018.12.13-21.49.13:823][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.12.13-21.49.13:824][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.12.13-21.49.13:825][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.12.13-21.49.13:825][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.13-21.49.13:825][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2018.12.13-21.49.13:825][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.13-21.49.13:825][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.13-21.49.13:825][  0]LogRHI: Texture pool is 2128 MB (70% of 3040 MB)
+[2018.12.13-21.49.13:898][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.13-21.49.14:719][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.12.13-21.49.14:802][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Intermediate/Shaders/WorkingDirectory/19532/).
+[2018.12.13-21.49.14:802][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BrieAnna/AppData/Local/Temp/UnrealShaderWorkingDir/8D79FB31408E9D994A6CB98CA6E47087/'.
+[2018.12.13-21.49.17:507][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.13-21.49.17:556][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.13-21.49.17:604][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.13-21.49.17:645][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.13-21.49.17:693][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.13-21.49.17:740][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.13-21.49.17:788][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.13-21.49.17:843][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.13-21.49.17:898][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.13-21.49.18:094][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.13-21.49.18:313][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.13-21.49.18:313][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.13-21.49.18:370][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.13-21.49.18:370][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.13-21.49.18:399][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.13-21.49.18:448][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.13-21.49.18:533][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.13-21.49.18:606][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.13-21.49.18:629][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.13-21.49.18:630][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.13-21.49.19:677][  0]LogXGEController: Cleaning working directory: C:/Users/BrieAnna/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.13-21.49.19:677][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.13-21.49.19:677][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.13-21.49.19:677][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.13-21.49.21:951][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.13-21.49.22:600][  0]LogDerivedDataCache: Loaded boot cache 0.64s 74MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.13-21.49.22:602][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.13-21.49.22:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.13-21.49.22:602][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.13-21.49.22:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.13-21.49.22:602][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.13-21.49.22:727][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.13-21.49.22:742][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BrieAnna/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.13-21.49.22:742][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.13-21.49.22:742][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.13-21.49.22:861][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.13-21.49.22:943][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.13-21.49.23:036][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.13-21.49.24:191][  0]LogAssetRegistry: FAssetRegistry took 0.0482 seconds to start up
+[2018.12.13-21.49.31:134][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.13-21.49.33:633][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.13-21.49.33:884][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.13-21.49.33:884][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.13-21.49.33:907][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.13-21.49.33:907][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.13-21.49.34:359][  0]LogNetVersion: GranadeLauncherTest 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1746410404)
+[2018.12.13-21.49.40:060][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.264281 seconds
+[2018.12.13-21.49.40:110][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.13-21.49.40:110][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.12.13-21.49.40:110][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.13-21.50.04:128][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.13-21.50.04:171][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.13-21.50.08:703][  0]SourceControl: Source control is disabled
+[2018.12.13-21.50.08:703][  0]SourceControl: Source control is disabled
+[2018.12.13-21.50.08:827][  0]SourceControl: Source control is disabled
+[2018.12.13-21.50.08:843][  0]SourceControl: Source control is disabled
+[2018.12.13-21.50.10:303][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.13-21.50.10:582][  0]LogOcInput: OculusInput pre-init called
+[2018.12.13-21.50.11:412][  0]LogEngine: Initializing Engine...
+[2018.12.13-21.50.11:429][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.13-21.50.11:460][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.13-21.50.11:460][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.13-21.50.11:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.13-21.50.11:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.13-21.50.12:361][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.13-21.50.12:848][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.13-21.50.13:041][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-21.50.13:181][  0]LogInit: FAudioDevice initialized.
+[2018.12.13-21.50.13:181][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.13-21.50.13:350][  0]LogDerivedDataCache: Saved boot cache 0.17s 74MB C:/Users/BrieAnna/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.13-21.50.13:394][  0]LogInit: Texture streaming: Enabled
+[2018.12.13-21.50.13:579][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.13-21.50.13:706][  0]LogInit: Transaction tracking system initialized
+[2018.12.13-21.50.14:282][  0]BlueprintLog: New page: Editor Load
+[2018.12.13-21.50.15:935][  0]LocalizationService: Localization service is disabled
+[2018.12.13-21.50.19:895][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/' took 0.14s
+[2018.12.13-21.50.19:895][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.13-21.50.19:896][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.13-21.50.19:907][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.13-21.50.19:907][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.13-21.50.19:907][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.13-21.50.19:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.12.13-21.50.19:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.13-21.50.23:244][  0]SourceControl: Source control is disabled
+[2018.12.13-21.50.23:279][  0]Cmd: MAP LOAD FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.13-21.50.23:329][  0]LightingResults: New page: Lighting Build
+[2018.12.13-21.50.23:536][  0]MapCheck: New page: Map Check
+[2018.12.13-21.50.23:536][  0]LightingResults: New page: Lighting Build
+[2018.12.13-21.50.24:919][  0]LogProperty: Warning: Serialized Class /Script/Engine.BoxComponent for a property of Class /Script/GranadeLauncherTest.DialogUI. Reference will be nullptred.
+    Property = ObjectProperty /Script/GranadeLauncherTest.GranadeLauncherTestCharacter:UI
+    Item = BoxComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BPAICharacter2_2.BoxComp
+[2018.12.13-21.50.25:400][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.13-21.50.26:240][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.13-21.50.26:442][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.13-21.50.26:577][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 134.133ms to complete.
+[2018.12.13-21.50.26:577][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.318
+[2018.12.13-21.50.27:999][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-21.50.28:019][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-21.50.28:030][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-21.50.28:037][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-21.50.28:205][  0]LogCollectionManager: Loaded 0 collections in 0.007762 seconds
+[2018.12.13-21.50.28:375][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/Collections/' took 0.01s
+[2018.12.13-21.50.28:375][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/Developers/BrieAnna/Collections/' took 0.01s
+[2018.12.13-21.50.28:375][  0]LogFileCache: Scanning file cache for directory 'D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/Collections/' took 0.01s
+[2018.12.13-21.50.28:375][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.13-21.50.28:423][  0]LogContentBrowser: Native class hierarchy populated in 0.0455 seconds. Added 2587 classes and 610 folders.
+[2018.12.13-21.50.28:499][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2018.12.13-21.50.29:321][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.12.13-21.50.29:458][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.12.13-21.50.30:066][  0]LogSlate: Took 0.039870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.13-21.50.30:145][  0]LogSlate: Took 0.048149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.13-21.50.32:230][  0]LogRenderer: Reallocating scene render targets to support 900x436 Format 10 NumSamples 1 (Frame:1).
+[2018.12.13-21.50.33:084][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.12.13-21.50.33:084][  0]LogLoad: (Engine Initialization) Total time: 102.49 seconds
+[2018.12.13-21.50.33:084][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.13-21.50.33:285][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.13-21.50.33:525][  2]LogAssetRegistry: Asset discovery search completed in 69.3635 seconds
+[2018.12.13-21.50.33:527][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000011 seconds (found 0 objects)
+[2018.12.13-21.50.33:527][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2018.12.13-21.50.41:256][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-21.50.41:256][ 63]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.13-21.50.41:291][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-21.50.41:291][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.13-21.50.41:375][ 63]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 9:50:41 AM)
+[2018.12.13-21.50.41:376][ 63]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.12.13-21.50.41:469][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093431s)
+[2018.12.13-21.50.41:470][ 63]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.13-21.50.41:470][ 63]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2018.12.13-21.50.41:479][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.103391s)
+[2018.12.13-21.50.41:516][ 63]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-21.50.41:527][ 63]LogInit: FAudioDevice initialized.
+[2018.12.13-21.50.41:592][ 63]LogLoad: Game class is 'GranadeLauncherTestGameMode'
+[2018.12.13-21.50.41:643][ 63]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-15.50.41
+[2018.12.13-21.50.41:735][ 63]LogWorld: Bringing up level for play took: 0.105021
+[2018.12.13-21.50.41:790][ 63]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.12.13-21.50.41:815][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-21.50.41:815][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-21.50.41:829][ 63]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.35
+[2018.12.13-21.50.41:829][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-21.50.48:602][400]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-21.50.50:149][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-21.52.43:267][255]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-21.52.45:523][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-21.52.55:229][969]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-21.52.55:230][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-21.52.55:327][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.13-21.52.55:327][969]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-21.52.55:405][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-21.52.55:471][970]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.12.13-21.52.58:777][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-21.52.58:875][166]LogSlate: Took 0.094572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.13-21.52.58:959][166]LogSlate: Took 0.018971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.13-22.11.48:927][694]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.13-22.11.48:959][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.11.48:960][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.13-22.11.48:960][694]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 10:11:48 AM)
+[2018.12.13-22.11.48:960][694]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.12.13-22.11.48:995][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034707s)
+[2018.12.13-22.11.48:997][694]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.13-22.11.48:997][694]LogPlayLevel: PIE: World Init took: (0.002128s)
+[2018.12.13-22.11.48:997][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037208s)
+[2018.12.13-22.11.49:060][694]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-22.11.49:082][694]LogInit: FAudioDevice initialized.
+[2018.12.13-22.11.49:393][694]LogLoad: Game class is 'GranadeLauncherTestGameMode'
+[2018.12.13-22.11.49:399][694]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-16.11.49
+[2018.12.13-22.11.49:400][694]LogWorld: Bringing up level for play took: 0.005446
+[2018.12.13-22.11.49:416][694]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.11.49:416][694]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.11.49:416][694]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.063
+[2018.12.13-22.11.49:416][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.11.53:292][924]LogScript: Warning: Attempted to access index 0 from array Questions of length 0!
 	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BPDialogUIWidget_C_0
 	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:007B
-[2018.12.13-15.43.35:614][ 11]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.43.35:614][ 11]LogScript: Warning: Attempted to access index 1 from array Questions of length 0!
+[2018.12.13-22.11.53:293][924]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
+[2018.12.13-22.11.53:293][924]LogScript: Warning: Attempted to access index 1 from array Questions of length 0!
 	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BPDialogUIWidget_C_0
 	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:00EB
-[2018.12.13-15.43.35:614][ 11]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.43.35:614][ 11]LogScript: Warning: Attempted to access index 2 from array Questions of length 0!
+[2018.12.13-22.11.53:293][924]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
+[2018.12.13-22.11.53:293][924]LogScript: Warning: Attempted to access index 2 from array Questions of length 0!
 	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BPDialogUIWidget_C_0
 	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:015B
-[2018.12.13-15.43.35:615][ 11]PIE: Error: Blueprint Runtime Error: "Attempted to access index 2 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.43.35:615][ 11]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.43.36:932][ 90]LogScript: Warning: Attempted to access index 0 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:007B
-[2018.12.13-15.43.36:932][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.43.36:932][ 90]LogScript: Warning: Attempted to access index 1 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:00EB
-[2018.12.13-15.43.36:932][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.43.36:932][ 90]LogScript: Warning: Attempted to access index 2 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:015B
-[2018.12.13-15.43.36:932][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access index 2 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.43.36:932][ 90]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.43.39:665][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.43.40:967][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.43.40:967][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.43.41:009][332]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.13-15.43.41:009][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.43.41:077][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.43.41:129][333]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2018.12.13-15.43.48:725][780]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget
-[2018.12.13-15.43.54:677][100]LogSlate: Window 'BPDialogUIWidget' being destroyed
-[2018.12.13-15.43.54:682][100]LogSlate: Window 'BPDialogUIWidget' being destroyed
-[2018.12.13-15.43.57:516][263]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BPAICharacter2.BPAICharacter2
-[2018.12.13-15.44.02:800][532]LogSlate: Window 'Event Graph' being destroyed
-[2018.12.13-15.44.02:809][532]LogSlate: Window 'Event Graph' being destroyed
-[2018.12.13-15.44.03:528][575]LogSlate: Window 'BPAICharacter2' being destroyed
-[2018.12.13-15.44.03:536][575]LogSlate: Window 'BPAICharacter2' being destroyed
-[2018.12.13-15.44.04:906][648]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget
-[2018.12.13-15.44.15:443][236]LogSlate: Window 'BPDialogUIWidget' being destroyed
-[2018.12.13-15.44.15:448][236]LogSlate: Window 'BPDialogUIWidget' being destroyed
-[2018.12.13-15.45.22:859][649]Candidate modules for hot reload:
-[2018.12.13-15.45.22:859][649]  GranadeLauncherTest
-[2018.12.13-15.45.22:859][649]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,3482 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.45.23:616][649]Warning: Starting HotReload took  0.8s.
-[2018.12.13-15.45.50:636][271]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:45:50 AM
-[2018.12.13-15.45.50:636][271]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.45.50:636][271]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.45.50:636][271]CompilerResultsLog: Parsing headers for GranadeLauncherTestEditor
-[2018.12.13-15.45.50:636][271]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\GranadeLauncherTest.uproject" "D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\GranadeLauncherTestEditor\Development\GranadeLauncherTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.13-15.45.50:636][271]CompilerResultsLog: Reflection code generated for GranadeLauncherTestEditor in 14.1721708 seconds
-[2018.12.13-15.45.50:636][271]CompilerResultsLog: Building 5 actions with 8 processes...
-[2018.12.13-15.45.50:636][271]CompilerResultsLog:   [1/5] GranadeLauncherTestProjectile.gen.cpp
-[2018.12.13-15.45.50:636][271]CompilerResultsLog:   [2/5] GranadeLauncherTestProjectile.cpp
-[2018.12.13-15.45.50:636][271]CompilerResultsLog:   [3/5] GranadeLauncherTestCharacter.cpp
-[2018.12.13-15.45.50:636][271]CompilerResultsLog:   [4/5] UE4Editor-GranadeLauncherTest-3482.lib
-[2018.12.13-15.45.50:636][271]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-3482.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-3482.exp
-[2018.12.13-15.45.50:636][271]CompilerResultsLog:   [5/5] UE4Editor-GranadeLauncherTest-3482.dll
-[2018.12.13-15.45.50:636][271]CompilerResultsLog:      Creating library D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-3482.suppressed.lib and object D:\Users\BrieAnna\Documents\GitHub\FinalProject-C\GranadeLauncherTest\Intermediate\Build\Win64\UE4Editor\Development\GranadeLauncherTest\UE4Editor-GranadeLauncherTest-3482.suppressed.exp
-[2018.12.13-15.45.50:636][271]CompilerResultsLog: Total build time: 26.65 seconds (Parallel executor: 8.24 seconds)
-[2018.12.13-15.45.50:636][271]LogMainFrame: MainFrame: Module compiling took 27.785 seconds
-[2018.12.13-15.45.50:691][271]LogClass: DialogStruct HotReload.
-[2018.12.13-15.45.50:691][271]LogClass: SubtitleStruct HotReload.
-[2018.12.13-15.45.50:699][271]LogContentBrowser: Native class hierarchy updated for 'GranadeLauncherTest' in 0.0009 seconds. Added 6 classes and 2 folders.
-[2018.12.13-15.45.50:703][271]Display: HotReload successful (7 functions remapped  2 scriptstructs remapped)
-[2018.12.13-15.45.51:077][271]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2588 classes and 612 folders.
-[2018.12.13-15.45.51:077][271]Display: HotReload took 28.2s.
-[2018.12.13-15.45.57:960][682]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.13-15.45.57:988][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.45.57:988][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.13-15.45.57:988][682]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 3:45:57 AM)
-[2018.12.13-15.45.57:988][682]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.12.13-15.45.58:009][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020689s)
-[2018.12.13-15.45.58:010][682]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.12.13-15.45.58:011][682]LogPlayLevel: PIE: World Init took: (0.001240s)
-[2018.12.13-15.45.58:011][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022273s)
-[2018.12.13-15.45.58:095][682]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.13-15.45.58:107][682]LogInit: FAudioDevice initialized.
-[2018.12.13-15.45.58:139][682]LogLoad: Game class is 'GranadeLauncherTestGameMode'
-[2018.12.13-15.45.58:142][682]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-09.45.58
-[2018.12.13-15.45.58:142][682]LogWorld: Bringing up level for play took: 0.002507
-[2018.12.13-15.45.58:155][682]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.45.58:155][682]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.45.58:155][682]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.99
-[2018.12.13-15.45.58:156][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.46.01:503][879]LogScript: Warning: Attempted to access index 0 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:007B
-[2018.12.13-15.46.01:503][879]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.01:503][879]LogScript: Warning: Attempted to access index 1 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:00EB
-[2018.12.13-15.46.01:503][879]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.01:503][879]LogScript: Warning: Attempted to access index 2 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:015B
-[2018.12.13-15.46.01:503][879]PIE: Error: Blueprint Runtime Error: "Attempted to access index 2 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.01:504][879]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.46.02:408][933]LogScript: Warning: Attempted to access index 0 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:007B
-[2018.12.13-15.46.02:409][933]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.02:409][933]LogScript: Warning: Attempted to access index 1 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:00EB
-[2018.12.13-15.46.02:409][933]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.02:409][933]LogScript: Warning: Attempted to access index 2 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:015B
-[2018.12.13-15.46.02:409][933]PIE: Error: Blueprint Runtime Error: "Attempted to access index 2 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.02:409][933]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.46.04:491][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.46.04:492][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.46.04:533][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.13-15.46.04:534][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.46.04:597][ 58]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(None)
-[2018.12.13-15.46.04:597][ 58]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(None)
-[2018.12.13-15.46.04:600][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.46.04:636][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2018.12.13-15.46.06:182][147]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.13-15.46.08:401][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.13-15.46.15:139][672]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.13-15.46.15:143][672]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.13-15.46.17:684][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.46.17:717][813]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.13-15.46.17:734][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.46.17:734][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.13-15.46.17:734][813]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 3:46:17 AM)
-[2018.12.13-15.46.17:734][813]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.12.13-15.46.17:749][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014786s)
-[2018.12.13-15.46.17:750][813]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.12.13-15.46.17:750][813]LogPlayLevel: PIE: World Init took: (0.001091s)
-[2018.12.13-15.46.17:750][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016065s)
-[2018.12.13-15.46.17:787][813]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.13-15.46.17:800][813]LogInit: FAudioDevice initialized.
-[2018.12.13-15.46.17:831][813]LogLoad: Game class is 'GranadeLauncherTestGameMode'
-[2018.12.13-15.46.17:834][813]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-09.46.17
-[2018.12.13-15.46.17:835][813]LogWorld: Bringing up level for play took: 0.002514
-[2018.12.13-15.46.17:848][813]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.46.17:848][813]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.46.17:848][813]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.682
-[2018.12.13-15.46.17:849][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.46.21:515][ 32]LogScript: Warning: Attempted to access index 0 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:007B
-[2018.12.13-15.46.21:515][ 32]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.21:515][ 32]LogScript: Warning: Attempted to access index 1 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:00EB
-[2018.12.13-15.46.21:515][ 32]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.21:515][ 32]LogScript: Warning: Attempted to access index 2 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:015B
-[2018.12.13-15.46.21:515][ 32]PIE: Error: Blueprint Runtime Error: "Attempted to access index 2 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.21:515][ 32]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.46.22:999][121]LogScript: Warning: Attempted to access index 0 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:007B
-[2018.12.13-15.46.22:999][121]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.22:999][121]LogScript: Warning: Attempted to access index 1 from array Questions of length 0!
-	BPDialogUIWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BPDialogUIWidget_C_0
-	Function /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget_C:ExecuteUbergraph_BPDialogUIWidget:00EB
-[2018.12.13-15.46.22:999][121]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.22:999][121]PIE: Error: Blueprint Runtime Error: "Attempted to access index 2 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.46.24:565][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.46.47:554][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.46.47:671][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.46.47:671][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.46.47:709][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.13-15.46.47:709][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.46.47:735][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.46.47:775][ 49]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2018.12.13-15.46.51:983][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.46.59:958][775]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget
-[2018.12.13-15.47.09:010][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.47.11:905][452]LogAssetEditorManager: Opening Asset editor for DataTable /Game/DataTable/AILines.AILines
-[2018.12.13-15.47.15:581][641]LogSlate: Window 'AILines' being destroyed
-[2018.12.13-15.47.15:585][641]LogSlate: Window 'AILines' being destroyed
-[2018.12.13-15.47.16:754][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.47.16:911][707]LogAssetEditorManager: Opening Asset editor for DataTable /Game/DataTable/PlayerLines.PlayerLines
-[2018.12.13-15.47.23:053][ 71]LogSlate: Window 'PlayerLines' being destroyed
-[2018.12.13-15.47.23:060][ 71]LogSlate: Window 'PlayerLines' being destroyed
-[2018.12.13-15.47.25:630][223]LogEditorViewport: Clicking on Actor (LMB): BPAICharacter2_C (BPAICharacter2)
-[2018.12.13-15.47.27:235][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.47.37:279][753]Candidate modules for hot reload:
-[2018.12.13-15.47.37:279][753]  GranadeLauncherTest
-[2018.12.13-15.47.37:279][753]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,2418 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
-[2018.12.13-15.47.37:962][753]Warning: Starting HotReload took  0.7s.
-[2018.12.13-15.47.42:495][938]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 3:47:42 AM
-[2018.12.13-15.47.42:495][938]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.12.13-15.47.42:496][938]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.13-15.47.42:496][938]CompilerResultsLog: Target is up to date
-[2018.12.13-15.47.42:496][938]CompilerResultsLog: Total build time: 4.12 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.12.13-15.47.42:496][938]LogMainFrame: MainFrame: Module compiling took 5.222 seconds
-[2018.12.13-15.47.42:839][938]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2588 classes and 612 folders.
-[2018.12.13-15.47.42:839][938]Display: HotReload took  5.6s.
-[2018.12.13-15.47.44:745][ 23]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.13-15.47.44:762][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.47.44:762][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.13-15.47.44:762][ 23]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 3:47:44 AM)
-[2018.12.13-15.47.44:762][ 23]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.12.13-15.47.44:777][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014652s)
-[2018.12.13-15.47.44:778][ 23]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.12.13-15.47.44:778][ 23]LogPlayLevel: PIE: World Init took: (0.001014s)
-[2018.12.13-15.47.44:778][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015872s)
-[2018.12.13-15.47.44:925][ 23]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.13-15.47.44:936][ 23]LogInit: FAudioDevice initialized.
-[2018.12.13-15.47.44:968][ 23]LogLoad: Game class is 'GranadeLauncherTestGameMode'
-[2018.12.13-15.47.44:971][ 23]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-09.47.44
-[2018.12.13-15.47.44:971][ 23]LogWorld: Bringing up level for play took: 0.002625
-[2018.12.13-15.47.44:984][ 23]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.47.44:985][ 23]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.47.44:985][ 23]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.181
-[2018.12.13-15.47.44:985][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.47.47:485][169]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.47.47:486][169]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.47.47:486][169]PIE: Error: Blueprint Runtime Error: "Attempted to access index 2 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
-[2018.12.13-15.47.47:486][169]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
-[2018.12.13-15.47.50:002][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.47.50:002][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.47.50:038][320]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.13-15.47.50:039][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.12.13-15.47.50:077][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.13-15.47.50:135][321]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2018.12.13-15.47.51:774][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.13-15.47.55:601][644]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BPDialogUIWidget.BPDialogUIWidget
-[2018.12.13-15.48.26:400][354]LogSlate: Window 'BPDialogUIWidget' being destroyed
-[2018.12.13-15.48.26:406][354]LogSlate: Window 'BPDialogUIWidget' being destroyed
-[2018.12.13-15.48.32:978][702]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/FirstPersonExampleMap574734694799EA596D8A20ABB8A7206F.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.12.13-15.48.33:021][702]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.550
-[2018.12.13-15.48.34:517][777]LogSlate: Window 'GranadeLauncherTest - Unreal Editor' being destroyed
-[2018.12.13-15.48.34:518][777]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.13-15.48.34:776][778]Cmd: QUIT_EDITOR
-[2018.12.13-15.48.35:395][778]LogExit: Preparing to exit.
-[2018.12.13-15.48.37:646][778]LogExit: Editor shut down
-[2018.12.13-15.48.37:646][778]LogExit: Transaction tracking system shut down
-[2018.12.13-15.48.39:486][778]LogExit: Object subsystem successfully closed.
-[2018.12.13-15.48.39:527][778]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.12.13-15.48.39:556][778]LogD3D11RHI: Shutdown
-[2018.12.13-15.48.39:556][778]LogD3D11RHI: CleanupD3DDevice
-[2018.12.13-15.48.39:606][778]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.12.13-15.48.40:881][778]LogModuleManager: Shutting down and abandoning module DataTableEditor (631)
-[2018.12.13-15.48.40:881][778]LogModuleManager: Shutting down and abandoning module GranadeLauncherTest (629)
-[2018.12.13-15.48.40:881][778]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (627)
-[2018.12.13-15.48.40:881][778]LogModuleManager: Shutting down and abandoning module Voice (625)
-[2018.12.13-15.48.40:890][778]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (622)
-[2018.12.13-15.48.40:890][778]LogModuleManager: Shutting down and abandoning module SequencerWidgets (620)
-[2018.12.13-15.48.40:890][778]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
-[2018.12.13-15.48.40:890][778]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (616)
-[2018.12.13-15.48.40:890][778]LogModuleManager: Shutting down and abandoning module SceneOutliner (614)
-[2018.12.13-15.48.40:890][778]LogModuleManager: Shutting down and abandoning module AddContentDialog (612)
-[2018.12.13-15.48.40:913][778]LogModuleManager: Shutting down and abandoning module WidgetCarousel (611)
-[2018.12.13-15.48.40:913][778]LogModuleManager: Shutting down and abandoning module EditorWidgets (608)
-[2018.12.13-15.48.40:914][778]LogModuleManager: Shutting down and abandoning module CollectionManager (606)
-[2018.12.13-15.48.40:930][778]LogModuleManager: Shutting down and abandoning module StatsViewer (604)
-[2018.12.13-15.48.40:945][778]LogModuleManager: Shutting down and abandoning module FoliageEdit (602)
-[2018.12.13-15.48.40:955][778]LogModuleManager: Shutting down and abandoning module LandscapeEditor (600)
-[2018.12.13-15.48.40:990][778]LogModuleManager: Shutting down and abandoning module MeshPaintMode (598)
-[2018.12.13-15.48.41:000][778]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (596)
-[2018.12.13-15.48.41:000][778]LogModuleManager: Shutting down and abandoning module ActorPickerMode (594)
-[2018.12.13-15.48.41:000][778]LogModuleManager: Shutting down and abandoning module GeometryMode (592)
-[2018.12.13-15.48.41:000][778]LogModuleManager: Shutting down and abandoning module TextureAlignMode (590)
-[2018.12.13-15.48.41:000][778]LogModuleManager: Shutting down and abandoning module BspMode (588)
-[2018.12.13-15.48.41:000][778]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (586)
-[2018.12.13-15.48.41:014][778]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (584)
-[2018.12.13-15.48.41:021][778]LogModuleManager: Shutting down and abandoning module AutomationWorker (582)
-[2018.12.13-15.48.41:021][778]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (580)
-[2018.12.13-15.48.41:021][778]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
-[2018.12.13-15.48.41:033][778]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (576)
-[2018.12.13-15.48.41:046][778]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (574)
-[2018.12.13-15.48.41:056][778]LogModuleManager: Shutting down and abandoning module PlacementMode (573)
-[2018.12.13-15.48.41:056][778]LogModuleManager: Shutting down and abandoning module MaterialEditor (572)
-[2018.12.13-15.48.41:096][778]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (568)
-[2018.12.13-15.48.41:096][778]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (566)
-[2018.12.13-15.48.41:096][778]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (564)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module SessionServices (538)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
-[2018.12.13-15.48.41:143][778]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
-[2018.12.13-15.48.41:171][778]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
-[2018.12.13-15.48.41:196][778]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
-[2018.12.13-15.48.41:209][778]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
-[2018.12.13-15.48.41:236][778]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
-[2018.12.13-15.48.41:249][778]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
-[2018.12.13-15.48.41:249][778]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
-[2018.12.13-15.48.41:249][778]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
-[2018.12.13-15.48.41:249][778]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
-[2018.12.13-15.48.41:249][778]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
-[2018.12.13-15.48.41:328][778]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
-[2018.12.13-15.48.41:328][778]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
-[2018.12.13-15.48.41:328][778]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
-[2018.12.13-15.48.41:328][778]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
-[2018.12.13-15.48.41:328][778]LogModuleManager: Shutting down and abandoning module InputBindingEditor (504)
-[2018.12.13-15.48.41:356][778]LogModuleManager: Shutting down and abandoning module MergeActors (502)
-[2018.12.13-15.48.41:377][778]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (500)
-[2018.12.13-15.48.41:399][778]LogModuleManager: Shutting down and abandoning module LocalizationService (499)
-[2018.12.13-15.48.41:407][778]LogModuleManager: Shutting down and abandoning module HardwareTargeting (496)
-[2018.12.13-15.48.41:408][778]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (494)
-[2018.12.13-15.48.41:408][778]LogModuleManager: Shutting down and abandoning module UndoHistory (492)
-[2018.12.13-15.48.41:415][778]LogModuleManager: Shutting down and abandoning module XmlParser (490)
-[2018.12.13-15.48.41:415][778]LogModuleManager: Shutting down and abandoning module Blutility (488)
-[2018.12.13-15.48.41:432][778]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (486)
-[2018.12.13-15.48.41:432][778]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (485)
-[2018.12.13-15.48.41:432][778]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (482)
-[2018.12.13-15.48.41:433][778]LogModuleManager: Shutting down and abandoning module SettingsEditor (480)
-[2018.12.13-15.48.41:462][778]LogModuleManager: Shutting down and abandoning module ProjectLauncher (478)
-[2018.12.13-15.48.41:483][778]LogModuleManager: Shutting down and abandoning module SessionFrontend (476)
-[2018.12.13-15.48.41:496][778]LogModuleManager: Shutting down and abandoning module ProfilerClient (474)
-[2018.12.13-15.48.41:504][778]LogModuleManager: Shutting down and abandoning module DeviceManager (472)
-[2018.12.13-15.48.41:515][778]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (471)
-[2018.12.13-15.48.41:581][778]LogModuleManager: Shutting down and abandoning module AutomationController (468)
-[2018.12.13-15.48.41:586][778]LogModuleManager: Shutting down and abandoning module AutomationWindow (466)
-[2018.12.13-15.48.41:596][778]LogModuleManager: Shutting down and abandoning module Layers (464)
-[2018.12.13-15.48.41:650][778]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (462)
-[2018.12.13-15.48.41:650][778]LogModuleManager: Shutting down and abandoning module DetailCustomizations (460)
-[2018.12.13-15.48.41:662][778]LogModuleManager: Shutting down and abandoning module PackagesDialog (458)
-[2018.12.13-15.48.41:662][778]LogModuleManager: Shutting down and abandoning module Persona (456)
-[2018.12.13-15.48.41:704][778]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (455)
-[2018.12.13-15.48.41:704][778]LogModuleManager: Shutting down and abandoning module AnimGraph (453)
-[2018.12.13-15.48.41:715][778]LogModuleManager: Shutting down and abandoning module Kismet (450)
-[2018.12.13-15.48.41:737][778]LogModuleManager: Shutting down and abandoning module GraphEditor (448)
-[2018.12.13-15.48.41:737][778]LogModuleManager: Shutting down and abandoning module ClassViewer (446)
-[2018.12.13-15.48.41:737][778]LogModuleManager: Shutting down and abandoning module Toolbox (444)
-[2018.12.13-15.48.41:737][778]LogModuleManager: Shutting down and abandoning module DesktopPlatform (443)
-[2018.12.13-15.48.41:748][778]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
-[2018.12.13-15.48.41:758][778]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
-[2018.12.13-15.48.41:779][778]LogModuleManager: Shutting down and abandoning module OutputLog (436)
-[2018.12.13-15.48.41:779][778]LogModuleManager: Shutting down and abandoning module GammaUI (434)
-[2018.12.13-15.48.41:796][778]LogModuleManager: Shutting down and abandoning module Documentation (432)
-[2018.12.13-15.48.41:796][778]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
-[2018.12.13-15.48.41:797][778]LogModuleManager: Shutting down and abandoning module MovieScene (428)
-[2018.12.13-15.48.41:812][778]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
-[2018.12.13-15.48.41:824][778]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
-[2018.12.13-15.48.41:824][778]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
-[2018.12.13-15.48.41:824][778]LogModuleManager: Shutting down and abandoning module PortalServices (420)
-[2018.12.13-15.48.41:824][778]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
-[2018.12.13-15.48.41:824][778]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
-[2018.12.13-15.48.41:824][778]LogModuleManager: Shutting down and abandoning module AIModule (414)
-[2018.12.13-15.48.41:840][778]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
-[2018.12.13-15.48.41:857][778]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
-[2018.12.13-15.48.41:868][778]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
-[2018.12.13-15.48.41:869][778]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
-[2018.12.13-15.48.41:999][778]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
-[2018.12.13-15.48.42:031][778]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
-[2018.12.13-15.48.42:031][778]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
-[2018.12.13-15.48.42:031][778]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
-[2018.12.13-15.48.42:041][778]LogModuleManager: Shutting down and abandoning module OculusInput (396)
-[2018.12.13-15.48.42:041][778]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
-[2018.12.13-15.48.42:041][778]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
-[2018.12.13-15.48.42:053][778]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
-[2018.12.13-15.48.42:053][778]LogModuleManager: Shutting down and abandoning module CableComponent (388)
-[2018.12.13-15.48.42:053][778]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
-[2018.12.13-15.48.42:053][778]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
-[2018.12.13-15.48.42:053][778]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
-[2018.12.13-15.48.42:053][778]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
-[2018.12.13-15.48.42:053][778]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
-[2018.12.13-15.48.42:085][778]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (376)
-[2018.12.13-15.48.42:085][778]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
-[2018.12.13-15.48.42:085][778]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
-[2018.12.13-15.48.42:085][778]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
-[2018.12.13-15.48.42:098][778]LogModuleManager: Shutting down and abandoning module HTML5Networking (368)
-[2018.12.13-15.48.42:099][778]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (366)
-[2018.12.13-15.48.42:099][778]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (364)
-[2018.12.13-15.48.42:099][778]LogModuleManager: Shutting down and abandoning module BackChannel (362)
-[2018.12.13-15.48.42:109][778]LogModuleManager: Shutting down and abandoning module AppleVision (360)
-[2018.12.13-15.48.42:109][778]LogModuleManager: Shutting down and abandoning module AppleImageUtils (358)
-[2018.12.13-15.48.42:110][778]LogModuleManager: Shutting down and abandoning module AlembicImporter (356)
-[2018.12.13-15.48.42:110][778]LogModuleManager: Shutting down and abandoning module AlembicLibrary (355)
-[2018.12.13-15.48.42:110][778]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
-[2018.12.13-15.48.42:110][778]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
-[2018.12.13-15.48.42:110][778]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
-[2018.12.13-15.48.42:123][778]LogModuleManager: Shutting down and abandoning module DatasmithContent (346)
-[2018.12.13-15.48.42:125][778]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (344)
-[2018.12.13-15.48.42:125][778]LogModuleManager: Shutting down and abandoning module PluginBrowser (342)
-[2018.12.13-15.48.42:156][778]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (340)
-[2018.12.13-15.48.42:163][778]LogModuleManager: Shutting down and abandoning module PolygonModeling (338)
-[2018.12.13-15.48.42:163][778]LogModuleManager: Shutting down and abandoning module MeshEditor (336)
-[2018.12.13-15.48.42:165][778]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (334)
-[2018.12.13-15.48.42:174][778]LogModuleManager: Shutting down and abandoning module CryptoKeys (332)
-[2018.12.13-15.48.42:174][778]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (330)
-[2018.12.13-15.48.42:174][778]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (328)
-[2018.12.13-15.48.42:175][778]LogModuleManager: Shutting down and abandoning module UObjectPlugin (326)
-[2018.12.13-15.48.42:175][778]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (324)
-[2018.12.13-15.48.42:185][778]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (322)
-[2018.12.13-15.48.42:195][778]LogModuleManager: Shutting down and abandoning module GitSourceControl (320)
-[2018.12.13-15.48.42:213][778]LogModuleManager: Shutting down and abandoning module SourceControl (319)
-[2018.12.13-15.48.42:249][778]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (316)
-[2018.12.13-15.48.42:249][778]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (314)
-[2018.12.13-15.48.42:249][778]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (312)
-[2018.12.13-15.48.42:249][778]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (310)
-[2018.12.13-15.48.42:249][778]LogModuleManager: Shutting down and abandoning module Paper2DEditor (308)
-[2018.12.13-15.48.42:617][778]LogModuleManager: Shutting down and abandoning module MeshPaint (307)
-[2018.12.13-15.48.42:628][778]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
-[2018.12.13-15.48.42:629][778]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
-[2018.12.13-15.48.42:629][778]LogModuleManager: Shutting down and abandoning module PhysXVehicles (298)
-[2018.12.13-15.48.42:629][778]LogModuleManager: Shutting down and abandoning module OculusEditor (296)
-[2018.12.13-15.48.42:645][778]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
-[2018.12.13-15.48.42:645][778]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (292)
-[2018.12.13-15.48.42:645][778]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (290)
-[2018.12.13-15.48.42:650][778]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
-[2018.12.13-15.48.42:664][778]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
-[2018.12.13-15.48.42:673][778]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.12.13-15.48.42:673][778]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.12.13-15.48.42:774][778]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.12.13-15.48.42:888][778]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.12.13-15.48.42:888][778]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.12.13-15.48.42:899][778]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.12.13-15.48.42:899][778]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.12.13-15.48.42:899][778]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.12.13-15.48.42:899][778]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.12.13-15.48.42:904][778]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.12.13-15.48.42:918][778]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.12.13-15.48.42:929][778]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.12.13-15.48.42:929][778]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.12.13-15.48.42:944][778]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.12.13-15.48.42:945][778]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.12.13-15.48.42:947][778]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.12.13-15.48.42:955][778]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.12.13-15.48.42:955][778]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.12.13-15.48.42:955][778]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.12.13-15.48.42:967][778]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.12.13-15.48.42:979][778]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.12.13-15.48.42:989][778]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.12.13-15.48.42:995][778]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.12.13-15.48.42:995][778]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.12.13-15.48.42:995][778]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.12.13-15.48.43:015][778]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.12.13-15.48.43:016][778]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.12.13-15.48.43:016][778]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.12.13-15.48.43:016][778]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.12.13-15.48.43:029][778]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.12.13-15.48.43:043][778]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.12.13-15.48.43:043][778]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.12.13-15.48.43:075][778]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.12.13-15.48.43:088][778]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.12.13-15.48.43:104][778]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.12.13-15.48.43:104][778]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.12.13-15.48.43:104][778]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.12.13-15.48.43:104][778]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.12.13-15.48.43:113][778]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.12.13-15.48.43:113][778]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.12.13-15.48.43:151][778]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.12.13-15.48.43:151][778]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.12.13-15.48.43:153][778]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.12.13-15.48.43:166][778]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.12.13-15.48.43:166][778]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.12.13-15.48.43:166][778]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.12.13-15.48.43:166][778]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.12.13-15.48.43:166][778]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.12.13-15.48.43:166][778]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.12.13-15.48.43:166][778]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.12.13-15.48.43:166][778]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.12.13-15.48.43:193][778]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.12.13-15.48.43:205][778]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.12.13-15.48.43:205][778]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.12.13-15.48.43:218][778]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.12.13-15.48.43:241][778]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.12.13-15.48.43:241][778]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.12.13-15.48.43:259][778]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.12.13-15.48.43:279][778]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.12.13-15.48.43:281][778]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.12.13-15.48.43:329][778]LogDerivedDataCache: Shutdown
-[2018.12.13-15.48.43:329][778]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.12.13-15.48.43:329][778]LogXGEController: Cleaning working directory: C:/Users/BrieAnna/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.12.13-15.48.43:342][778]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.12.13-15.48.43:342][778]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.12.13-15.48.43:349][778]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.12.13-15.48.43:358][778]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.12.13-15.48.43:365][778]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.12.13-15.48.43:365][778]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.12.13-15.48.43:385][778]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.12.13-15.48.43:385][778]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.12.13-15.48.43:385][778]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.12.13-15.48.43:398][778]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.12.13-15.48.43:413][778]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.12.13-15.48.43:428][778]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.12.13-15.48.43:434][778]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.12.13-15.48.43:435][778]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.12.13-15.48.43:435][778]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.12.13-15.48.43:435][778]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.12.13-15.48.43:435][778]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.12.13-15.48.43:451][778]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.12.13-15.48.43:461][778]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.12.13-15.48.43:462][778]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.12.13-15.48.43:462][778]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.12.13-15.48.43:462][778]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.12.13-15.48.43:474][778]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.12.13-15.48.43:504][778]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.12.13-15.48.43:556][778]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.12.13-15.48.43:561][778]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.12.13-15.48.43:561][778]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B21183518-46B6-0065-4395-438C81F56419%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=9556cc154714501b863c40bdfe2c8e07%7C1a8f9984db4c4353a49fb71223dcd704%7Cf38051cd-6b46-484a-9985-d4971c83e6e5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.12.13-15.48.43:565][778]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.12.13-15.48.43:587][778]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.12.13-15.48.43:587][778]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.12.13-15.48.43:588][778]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.12.13-15.48.43:603][778]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.12.13-15.48.43:603][778]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.12.13-15.48.43:617][778]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.12.13-15.48.43:631][778]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.12.13-15.48.43:631][778]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.12.13-15.48.43:631][778]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.12.13-15.48.43:648][778]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.12.13-15.48.43:666][778]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.12.13-15.48.43:666][778]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.12.13-15.48.43:676][778]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.12.13-15.48.43:677][778]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.12.13-15.48.43:677][778]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.12.13-15.48.43:677][778]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.12.13-15.48.43:684][778]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.12.13-15.48.43:684][778]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.12.13-15.48.43:699][778]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.12.13-15.48.43:699][778]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.12.13-15.48.43:735][778]LogExit: Exiting.
-[2018.12.13-15.48.43:739][778]Log file closed, 12/13/18 09:48:43
+[2018.12.13-22.11.53:294][924]PIE: Error: Blueprint Runtime Error: "Attempted to access index 2 from array Questions of length 0!". Blueprint:  BPDialogUIWidget Function:  Execute Ubergraph BPDialog UIWidget Graph:  EventGraph Node:  SetText (Text)
+[2018.12.13-22.11.55:825][ 76]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.11.57:641][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-22.12.09:626][903]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.13.32:570][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.13.32:570][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.13.32:617][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.13-22.13.32:618][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.13.32:686][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.13.33:032][874]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.12.13-22.13.39:003][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-22.13.39:135][237]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.13-22.13.39:151][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.13.39:151][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.13-22.13.39:151][237]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 10:13:39 AM)
+[2018.12.13-22.13.39:151][237]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.12.13-22.13.39:168][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017287s)
+[2018.12.13-22.13.39:169][237]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.13-22.13.39:169][237]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2018.12.13-22.13.39:169][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018395s)
+[2018.12.13-22.13.39:195][237]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-22.13.39:206][237]LogInit: FAudioDevice initialized.
+[2018.12.13-22.13.39:237][237]LogLoad: Game class is 'GranadeLauncherTestGameMode'
+[2018.12.13-22.13.39:240][237]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-16.13.39
+[2018.12.13-22.13.39:240][237]LogWorld: Bringing up level for play took: 0.002370
+[2018.12.13-22.13.39:254][237]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.13.39:254][237]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.13.39:254][237]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.225
+[2018.12.13-22.13.39:254][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.13.41:755][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.13.41:755][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.13.41:794][386]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.13-22.13.41:794][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.13.41:820][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.13.41:866][389]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.12.13-22.13.54:868][169]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.13-22.13.54:884][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.13.54:884][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.13-22.13.54:884][169]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 10:13:54 AM)
+[2018.12.13-22.13.54:884][169]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.12.13-22.13.54:902][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017852s)
+[2018.12.13-22.13.54:903][169]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.13-22.13.54:903][169]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2018.12.13-22.13.54:903][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018920s)
+[2018.12.13-22.13.54:929][169]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-22.13.54:940][169]LogInit: FAudioDevice initialized.
+[2018.12.13-22.13.54:970][169]LogLoad: Game class is 'GranadeLauncherTestGameMode'
+[2018.12.13-22.13.54:973][169]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-16.13.54
+[2018.12.13-22.13.54:973][169]LogWorld: Bringing up level for play took: 0.002527
+[2018.12.13-22.13.54:987][169]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.13.54:987][169]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.13.54:987][169]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.492
+[2018.12.13-22.13.54:987][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.14.00:206][480]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.14.01:923][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-22.14.06:592][863]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.14.06:593][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.14.06:636][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.13-22.14.06:636][863]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.14.06:684][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.14.06:701][864]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.12.13-22.14.09:997][ 61]LogSlate: Took 0.000446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.13-22.14.10:006][ 61]LogAssetEditorManager: Opening Asset editor for DataTable /Game/DataTable/PlayerLines.PlayerLines
+[2018.12.13-22.14.54:688][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DataTable/PlayerLines" FILE="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/DataTable/PlayerLines.uasset" SILENT=true
+[2018.12.13-22.14.54:792][690]LogSavePackage: Moving '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Saved/PlayerLinesE5BFC2004F5DF6F5DBEEAAA5FCF4F224.tmp' to '../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/Content/DataTable/PlayerLines.uasset'
+[2018.12.13-22.14.57:482][850]LogSlate: Window 'PlayerLines' being destroyed
+[2018.12.13-22.14.57:487][850]LogSlate: Window 'PlayerLines' being destroyed
+[2018.12.13-22.15.00:014][999]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.12.13-22.15.00:085][999]Candidate modules for hot reload:
+[2018.12.13-22.15.00:085][999]  GranadeLauncherTest
+[2018.12.13-22.15.00:085][999]Launching UnrealBuildTool... [D:/Unreal/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GranadeLauncherTest,5155 Win64 Development -TargetType=Editor -Project="../../../../../Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" -canskiplink "D:/Users/BrieAnna/Documents/GitHub/FinalProject-C/GranadeLauncherTest/GranadeLauncherTest.uproject" ]
+[2018.12.13-22.15.00:095][999]Warning: Starting HotReload took  0.1s.
+[2018.12.13-22.15.09:947][591]CompilerResultsLog: New page: Compilation - Dec 13, 2018, 10:15:09 AM
+[2018.12.13-22.15.09:947][591]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.12.13-22.15.09:947][591]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.13-22.15.09:947][591]CompilerResultsLog: Target is up to date
+[2018.12.13-22.15.09:947][591]CompilerResultsLog: Total build time: 9.32 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.12.13-22.15.09:947][591]LogMainFrame: MainFrame: Module compiling took 9.932 seconds
+[2018.12.13-22.15.09:982][591]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2588 classes and 612 folders.
+[2018.12.13-22.15.10:022][591]Display: HotReload took 10.0s.
+[2018.12.13-22.15.11:089][655]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.13-22.15.11:105][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.15.11:105][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.13-22.15.11:105][655]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 10:15:11 AM)
+[2018.12.13-22.15.11:105][655]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.12.13-22.15.11:125][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019699s)
+[2018.12.13-22.15.11:126][655]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.13-22.15.11:126][655]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2018.12.13-22.15.11:127][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021023s)
+[2018.12.13-22.15.11:156][655]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-22.15.11:167][655]LogInit: FAudioDevice initialized.
+[2018.12.13-22.15.11:200][655]LogLoad: Game class is 'GranadeLauncherTestGameMode'
+[2018.12.13-22.15.11:203][655]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-16.15.11
+[2018.12.13-22.15.11:204][655]LogWorld: Bringing up level for play took: 0.002838
+[2018.12.13-22.15.11:218][655]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.15.11:218][655]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.15.11:218][655]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.261
+[2018.12.13-22.15.11:218][655]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.15.13:876][813]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.15.18:042][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-22.16.14:822][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.16.14:823][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.16.14:867][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.13-22.16.14:868][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.16.14:925][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.16.14:961][467]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.12.13-22.16.45:249][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-22.16.45:263][282]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.13-22.16.45:310][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.16.45:310][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.13-22.16.45:311][282]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2018, 10:16:45 AM)
+[2018.12.13-22.16.45:311][282]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.12.13-22.16.45:360][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049557s)
+[2018.12.13-22.16.45:363][282]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.13-22.16.45:363][282]LogPlayLevel: PIE: World Init took: (0.002269s)
+[2018.12.13-22.16.45:363][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.052321s)
+[2018.12.13-22.16.45:445][282]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.13-22.16.45:477][282]LogInit: FAudioDevice initialized.
+[2018.12.13-22.16.45:516][282]LogLoad: Game class is 'GranadeLauncherTestGameMode'
+[2018.12.13-22.16.45:523][282]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.12.13-16.16.45
+[2018.12.13-22.16.45:524][282]LogWorld: Bringing up level for play took: 0.006880
+[2018.12.13-22.16.45:542][282]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.16.45:542][282]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.16.45:543][282]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.064
+[2018.12.13-22.16.45:543][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.16.50:748][591]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(BPAICharacter2_2)
+[2018.12.13-22.16.52:015][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.13-22.17.04:515][411]LogAssetEditorManager: Opening Asset editor for Class /Script/GranadeLauncherTest.AICharacter
+[2018.12.13-22.55.19:863][733]Cmd: SELECT NONE
+[2018.12.13-22.55.19:970][733]Cmd: SELECT NONE
+[2018.12.13-22.55.19:971][733]Cmd: SELECT NONE
+[2018.12.13-22.55.20:011][736]Cmd: SELECT NONE
+[2018.12.13-22.56.18:886][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.13-22.56.18:937][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.56.18:939][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.56.19:010][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.13-22.56.19:011][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.12.13-22.56.19:084][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.13-22.56.19:145][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.12.13-22.56.35:904][171]LogEditorViewport: Clicking on Actor (LMB): BPAICharacter2_C (BPAICharacter2)
+[2018.12.13-22.57.04:484][250]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.12.13-22.57.04:897][251]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.12.13-22.57.13:443][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.13-22.57.13:651][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.13-22.57.13:694][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
